@@ -45,6 +45,37 @@
     ```
     Приложение будет доступно по адресу `http://localhost:5000`.
 
+## Запуск с помощью Docker
+
+1.  **Соберите Docker-образ:**
+    ```bash
+    docker build -t ai-web-analysis .
+    ```
+
+2.  **Запустите контейнер:**
+    Не забудьте подставить свой `OPENAI_API_KEY`.
+    ```bash
+    docker run -p 5000:5000 -e OPENAI_API_KEY='ваш_ключ_здесь' ai-web-analysis
+    ```
+
+## Развертывание на Docker Hub
+
+1.  **Войдите в Docker Hub:**
+    ```bash
+    docker login
+    ```
+
+2.  **Присвойте тег образу:**
+    Замените `your-username` на ваш логин в Docker Hub.
+    ```bash
+    docker tag ai-web-analysis your-username/ai-web-analysis:latest
+    ```
+
+3.  **Загрузите образ:**
+    ```bash
+    docker push your-username/ai-web-analysis:latest
+    ```
+
 ## Как использовать
 
 1.  Откройте `http://localhost:5000` в вашем браузере.

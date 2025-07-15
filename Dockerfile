@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Устанавливаем рабочую директорию
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Устанавливаем переменные окружения
 ENV PYTHONDONTWRITEBYTECODE 1

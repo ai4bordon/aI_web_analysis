@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Анализ и Генерация Рекламы</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Анализ и Генерация Рекламы</h1>
+        <p>Введите URL-адрес страницы для анализа и генерации таргетированной рекламы</p>
+        
+        <form id="ad-form" method="post">
+            <input type="url" name="url" placeholder="https://example.com/product-page" required>
+            <button type="submit">Начать анализ</button>
+        </form>
+
+        <div id="loader" class="loader"></div>
+
+        {% if error %}
+        <div class="result error">
+            <h2>Ошибка</h2>
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+
+        {% if prompts %}
+        <div class="result">
+            <h2>📋 Этапы анализа:</h2>
+            <div class="prompts-container">
+                {% for prompt in prompts %}
+                <div class="prompt-block">
+                    {{ prompt | nl2br | safe }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if analysis_results %}
+        <div class="result">
+            <h2>🔍 Результаты анализа:</h2>
+            <div class="analysis-container">
+                {% for result in analysis_results %}
+                <div class="analysis-block">
+                    {{ result | nl2br | safe }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if final_post %}
+        <div class="result final">
+            <h2>📢 Финальный рекламный пост:</h2>
+            <div class="ad-post">
+                {{ final_post | nl2br | safe if final_post else "" }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        document.getElementById('ad-form').addEventListener('submit', function() {
+            document.getElementById('loader').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,3850 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<meta name="google-play-app" content="app-id=com.chatium.app">
+		
+		
+			<script type="text/javascript">
+			window.redesignedMenuActiveItem = '';
+		</script>
+		
+	
+			<link rel="shortcut icon" href="https://fs.getcourse.ru/fileservice/file/download/a/256825/sc/233/h/dc921bdc68ce6d2017e03a843543ce3d.jpg">
+	
+		<title>VCd03.Финальный проект. Создание автономного агента</title>
+			
+<script>
+	
+	window.accountUserId = 255748303;
+	window.requestIp = "77.82.165.59";
+	window.isSublogined = false;
+	window.accountId = 256825;
+	window.gcSessionId = 7967451070;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2025, 6, 15, 13, 49, 18);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","AED":"AED","TRY":"TRY","INR":"INR","RSD":"RSD","CZK":"CZK","MNT":"MNT","NZD":"NZD","BGN":"BGN","IDR":"IDR","CNY":"CNY","GEL":"GEL","COP":"COP","ARS":"ARS","PEN":"PEN","CLP":"CLP","VND":"VND","PHP":"PHP","DOP":"DOP","KRW":"KRW","TWD":"TWD","MDL":"MDL","TJS":"TJS","NOK":"NOK","NGN":"NGN","POINTS":""};
+window.accountSafeUserName = "Eduard";
+window.accountUserThumbnail = "<img class=\"user-profile-image user-default-profile-image\" src=\"\/public\/img\/default_profile_50.png\" width=\"50\" alt=\"\">";
+window.language = "ru";
+window.csrfToken = "5FwVKCpfB0L4XnLvLqfqbh_Y-tSMHjsmzAavaLO0HYG9EEF-Wi5gcJcJS55JwoAIZ4m4mMd6VVSBMf84noIk7w==";
+window.requestTime = 1752576558;
+window.requestSimpleSign = "507824f545c67d039e8698b617748b8b";
+window.gcUniqId = "17270549066876322e775f98.87911347.1752576558.489";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.allowRevealPassword = false;
+window.isDisabledConvertIndexToSimple = true;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = true;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+window.fileserviceMainHost = "fs24.getcourse.ru";
+window.fileserviceUploadHost = "fs24.getcourse.ru";
+window.fileserviceTusFeatureEnabled = true;
+window.iCanSelectGridOffset = true;
+window.webinarUsePlayer15 = true;
+window.isEnabledSecureUpload = 1;
+window.webinarWebsocketHosts = ["ws03.getcourse.ru","stream01.gcfiles.net"];
+window.webinarWebsocketPath = "\/ws2\/webinar";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+window.isDisabledFacebook = true;
+window.metaIsAnExtremismOrganizationText = "\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Meta \u043f\u0440\u0438\u0437\u043d\u0430\u043d\u0430 \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0438\u0441\u0442\u043a\u043e\u0439 \u0432 \u0420\u0424.";
+window.isTestingV2 = false;
+window.testingV2VersionCheck = false;
+window.isDisabledVK = false;
+window.autoGenerateSubtitlesSectionEnabled = true;
+window.internalDomains = ["university.zerocoder.ru","zerocoder.getcourse.ru"];
+window.vhApiHost = "player02.getcourse.ru";
+window.vhsRegion = "ru";
+window.videoLinkFeatureUsed = 0;
+window.helpdeskEnabledFeature = false;
+window.helpdeskTalksEnabledFeature = false;
+window.enabledTariffsPage = true;
+window.relatedUsersOnActiveBlock = true;
+window.UShort = "WzI1NTc0ODMwM10.CIsxEBd3-ySqN1NYS2TXb48u_USi3t-iyvD1qX_z0og";
+window.ULong = "WzI1NTc0ODMwMywiRWR1YXJkIiwiIiwidXNlciIsMCwiIiwiS2VycnltZXNzQGdtYWlsLmNvbSIsIis3OTk1MDU5MTE1OSJd.zUfvxgnk-XdENJ9WE5I70VASzYUj77r7vbRYuFIUses";
+window.gcRedesign = {"isLessonRedesignEnabled":false};
+</script>
+
+<script type="text/javascript">
+
+		
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+
+	<link href="/pl/fileservice/video-hosting/player-style" rel="stylesheet">
+<link href="/public/css/filelist.css" rel="stylesheet">
+<link href="/pl/nassets/b6f806c8/css/bootstrap.min.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/4ce3845a/select2.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/4ce3845a/select2-kv.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/dd6db688/css/videoplayer.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/d9b8b39f/uploadifive.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/8ad1d3a9/css/video-js.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/8ad1d3a9/css/plugins/videojs-seek-buttons.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/176e8f4a/glyphicons.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/d15964b7/css/reveal-password.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/css/superlite-block-acf098dfb88897cc2d203bdab7f79c56.css?v=1752576315" rel="stylesheet" async="async">
+<link href="/public/fonts/gfonts/open-sans/open-sans-cyr-swap.css" rel="stylesheet" async="async">
+<link href="/public/fonts/gfonts/roboto/roboto-cyr-swap.css" rel="stylesheet" async="async">
+<link href="/pl/nassets/ca677c31/themes/smoothness/jquery-ui.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/34d2a894/toast/css/jquery.toast.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/7e886044/jquery.emojiarea.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/7e886044/emoji.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/89bfd734/css/blueimp-gallery.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/89bfd734/css/blueimp-gallery-indicator.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/add7304b/editor/css/editor.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/c746ae82/answers.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/all.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v5-font-face.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v4-font-face.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/v4-shims.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a9f792d5/css/old.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/50d98807/css/modal.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/b8946cf8/css/jquery.Jcrop.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/b52047c6/css/jquery.dataTables.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/file-dialog.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/file-widget-with-dialog.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/24d4d8eb/css/video-grid.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/c727c900/redactor.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/2c350652/css/questions-editor.css?v=1748254547" rel="stylesheet">
+<link href="/pl/nassets/2c350652/css/testing-widget.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/a4dd1848/mission-addfields.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/4d29095f/css/bootstrap-datepicker3.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/4d29095f/css/datepicker-kv.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/1daf73ae/css/bootstrap-datetimepicker3.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/1daf73ae/css/datetimepicker-kv.min.css?v=1748094544" rel="stylesheet">
+<link href="/pl/nassets/css/tags-a4ffab408734cc692f9c956be7634162.css?v=1752576315" rel="stylesheet">
+<link href="/pl/nassets/141ae5a7/widget.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/css/custom-form-dd508755e58e719cfee0f4aa4a2cc48f.css?v=1752576316" rel="stylesheet" async="async">
+<link href="/pl/nassets/de75e957/css/button.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/e0fc36a8/colpick.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/644c2834/css/menu.css?v=1752576312" rel="stylesheet">
+<link href="/pl/nassets/24d681c9/statuses.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/818a17ad/standard.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/818a17ad/fonts.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/8bd47edf/notice.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/aa8d00f3/css/user-form.css?v=1748094543" rel="stylesheet">
+<link href="/pl/nassets/59757da8/css/global.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/10a687a4/manrope.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/a88355f1/proxima.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/644c2834/css/main.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/644c2834/css/jquery.toast.min.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/644c2834/css/fonts.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/1ca6dddd/tasks-block.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/7ce92119/css/audio-comments.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/4918fd53/css/like.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/99ed91fb/css/subscribe.css?v=1748094542" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/flex-audio-js.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/comments.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/comment_reply_open.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/comment_rating_widget.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/conversation_widget.css?v=1748094541" rel="stylesheet">
+<link href="/pl/nassets/21a513f9/css/talks_widget.css?v=1748094541" rel="stylesheet">
+<script src="/pl/nassets/13c3419e/jquery.min.js?v=1748094543"></script>
+<script src="/pl/nassets/53775c16/yii.js?v=1748094544"></script>
+<script src="/pl/nassets/d9b8b39f/jquery.uploadifive.min.js?v=1748094541"></script>
+<script src="/pl/nassets/d9b8b39f/uploadifive-rewrite.js?v=1748094541"></script>
+<script src="/pl/nassets/59757da8/js/global-function.js?v=1748254547"></script>
+<script src="/pl/nassets/d15964b7/js/reveal-password.js?v=1748094541"></script>
+<script src="/pl/nassets/ca677c31/jquery-ui.min.js?v=1748094543"></script>
+<script src="/pl/nassets/b6f806c8/js/bootstrap.min.js?v=1748094543"></script>
+<script src="/pl/nassets/3450b108/jquery.autosize.min.js?v=1748094541"></script>
+<script src="/pl/nassets/34d2a894/js/jquery.toast.min.js?v=1748094541"></script>
+<script src="/pl/nassets/3450b108/jquery.form.min.js?v=1748094541"></script>
+<script src="/pl/nassets/7e886044/jquery.emojiarea.js?v=1748094541"></script>
+<script src="/pl/nassets/7e886044/emoji.js?v=1748094541"></script>
+<script src="/pl/nassets/33313f15/js/JsTrans.min.js?v=1748094541"></script>
+<script src="/pl/nassets/d5236c20/dictionary-gen-c7aa98432a53e8a21a5f75bd6206f1afb08972f0.js?v=1752573600"></script>
+<script src="/pl/nassets/50d98807/js/modal.js?v=1750146012"></script>
+<script src="/pl/nassets/d5236c20/dictionary-gen-5d3444bd9675751ed42fd2a506d526722a5cf948.js?v=1752573600"></script>
+<script src="/pl/nassets/4d29095f/js/bootstrap-datepicker.min.js?v=1748094544"></script>
+<script src="/pl/nassets/4d29095f/js/datepicker-kv.min.js?v=1748094544"></script>
+<script src="/pl/nassets/b01f7d7e/js/datepicker-reset.js?v=1748094541"></script>
+<script src="/pl/nassets/1daf73ae/js/bootstrap-datetimepicker.min.js?v=1748094544"></script>
+<script src="/pl/nassets/b01f7d7e/js/datetimepicker-reset.js?v=1748094541"></script>
+<script src="/pl/nassets/644c2834/js/react/react.min.js?v=1748094541"></script>
+<script src="/pl/nassets/644c2834/js/socket.io.slim.js?v=1748094541"></script>
+<script src="/pl/nassets/644c2834/js/socket.js?v=1748094541"></script>
+<script src="/pl/nassets/644c2834/js/websocket.global.js?v=1748094541"></script>
+<script src="/pl/nassets/aa8d00f3/js/user-form-def.js?v=1748094543"></script>
+<script src="/pl/nassets/aa8d00f3/js/build/user-form.js?v=1748094543"></script>
+<script src="/pl/nassets/3450b108/jquery.sticky.js?v=1748094541"></script>
+<script src="/pl/nassets/59757da8/js/main.js?v=9"></script>
+<script src="/pl/nassets/b2ead16/jquery.inputmask.bundle.js?v=1748094543"></script>
+<script src="/pl/nassets/7ce92119/js/audio-comments.js?v=1748094541"></script>
+<script src="/pl/nassets/7ce92119/js/RecordRTC.min.js?v=1748094541"></script>
+<script src="/pl/nassets/4918fd53/js/like.js?v=1750146012"></script>
+<script src="/pl/nassets/99ed91fb/js/subscribe.js?v=1748094542"></script>
+<script src="/pl/nassets/21a513f9/js/comments.js?v=1742806457"></script>
+<script src="/pl/nassets/21a513f9/js/comment_reply_open.js?v=1748094541"></script>
+<script src="/pl/nassets/21a513f9/js/comment_template_dialog.js?v=1748094541"></script>
+<script src="/pl/nassets/d5236c20/dictionary-gen-65c50fc6354b2df86c276c0c015e11e9c63469d6.js?v=1752573600"></script>
+<script>window.globalCheckboxEnabled=false
+window.persodataConfirm=true
+window.globalCheckboxForPaidOnly=false
+window.globalCheckboxText="\u0421\u043e\u0433\u043b\u0430\u0448\u0430\u044e\u0441\u044c \u0438 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e \u0443\u0441\u043b\u043e\u0432\u0438\u044f <a href=\"https:\/\/zerocoder.ru\/terms\" target=\"_blank\">\u041e\u0444\u0435\u0440\u0442\u044b<\/a>."
+window.pdpCheckboxEnabled=false
+window.pdpConfirmedByDefault=false
+window.pdpCheckboxText="\u041e\u0437\u043d\u0430\u043a\u043e\u043c\u043b\u0435\u043d \u0438 \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u0441 <a href=\"https:\/\/university.zerocoder.ru\/pl\/fileservice\/user\/file\/download\/h\/1e37e44d3a1ee9989c6de662ce2ee083.pdf\">\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438<\/a> \u0438 \u0434\u0430\u044e \u0441\u0432\u043e\u0435 <a href=\"https:\/\/university.zerocoder.ru\/pl\/fileservice\/user\/file\/download\/h\/7c10ac0406cf7201975eba165a453ffa.pdf\">\u0421\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445<\/a>."
+window.checkboxMailingEnabled=false
+window.checkboxMailingChecked=false
+window.checkboxMailingForPaidOnly=false
+window.checkboxMailingText="\u0414\u0430\u044e \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0438 \u043c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433\u043e\u0432\u044b\u0445 \u0440\u0430\u0441\u0441\u044b\u043b\u043e\u043a (\u0432\u044b \u0432 \u043b\u044e\u0431\u043e\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u043c\u043e\u0436\u0435\u0442\u0435 \u043e\u0442\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u0438\u0441\u0435\u043c \u0432 \u043b\u0438\u0447\u043d\u043e\u043c \u043a\u0430\u0431\u0438\u043d\u0435\u0442\u0435)"
+window.isMailingCheckboxRequired=false
+window.isMailingCheckboxRequiredForNotPaid=false
+window.isLegalReworkFeatureEnabled=true
+var newTestsFeature = true;</script>	
+			<!-- Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+
+
+<!-- [CSS] Общие коды в аккаунт -->
+<link rel="stylesheet" href="/pl/cms/layout/css?id=38450&hash=f10bbcc06057d5aa3d35b65ce9907d72&bundle=1">
+
+
+<!-- [CSS] Боковая панель -->
+<link rel="stylesheet" href="/pl/cms/layout/css?id=38451&hash=d70f467715eda0384adf16706817b0bf&bundle=1">
+
+
+<!-- [JS] Боковая панель -->
+<script src="/pl/cms/layout/js?id=38451&hash=d70f467715eda0384adf16706817b0bf&bundle=1"></script>
+
+
+<!-- Стили вебинарной комнаты -->
+<script type="text/javascript" src="/pl/cms/layout/js?id=13512&hash=dac20f78d0c44fc26041a1fb3a0fe38a&bundle=1"></script>
+<script src="/pl/cms/layout/js?id=31031&hash=1"></script>
+
+
+<!-- getfusion -->
+<script src="https://getfusion.ru/fusion/plugin.js?hash=94172016123" crossorigin="use-credentials"></script>
+
+
+<!-- gc-robot.ru payments --><script>
+$(()=>{!function(g,r){if(-1!=g.indexOf("sales/control/deal/update")||-1!=g.indexOf("pl/sales/deal")||-1!=g.indexOf("sales/control/payment/update")||-1!=g.indexOf("pl/sales/control/payment")){let e=r.createElement("script");e.type="text/javascript",e.src="https://service.gc-robot.ru/v2/1352/script/payments-v2.js",r.getElementsByTagName("head")[0].appendChild(e)}}(location.href,document)});</script>
+<!-- /gc-robot.ru payments -->
+
+<script type="text/javascript" src="https://api.flocktory.com/v2/loader.js?site_id=5200" async="async"></script>
+
+
+
+
+</head>
+<body class="gc-user-logined ">
+			<div id="gcAccountUserMenu"></div>
+	
+			<script>
+						window.gcAccountUserMenu = {"customClass":null,"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","hideLabel":true,"iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","hideLabel":true,"iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","hideLabel":true,"iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","hideLabel":true,"iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","hideLabel":true,"iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{"worksheetClass":null},"target":null},{"id":"notifications_button_small","label":"","hideLabel":true,"iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","hideLabel":true,"iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","hideLabel":true,"iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/pl\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","hideLabel":true,"iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","hideLabel":true,"iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","hideLabel":true,"iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043b\u0443\u0436\u0431\u0430 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","hideLabel":true,"iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"partners","label":"\u041f\u0430\u0440\u0442\u043d\u0435\u0440\u0441\u043a\u0430\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430","hideLabel":true,"iconUrl":"\/public\/img\/service\/partners.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/partners_active.png","subitems":[],"url":"\/sales\/control\/participant","params":{"show":false},"target":null},{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"chatium","label":"Mobile","hideLabel":true,"iconUrl":"\/public\/img\/service\/chatium.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/chatium_active.png","subitems":[{"id":"chatium_app","label":"\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435","hideLabel":true,"iconUrl":"\/public\/img\/service\/chatium_app.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/chatium_app_active.png","subitems":[],"url":"\/pl\/chatium\/school\/enter","params":{},"target":null},{"id":"chatium_qr","label":"\u042d\u0442\u043e\u0442 \u044d\u043a\u0440\u0430\u043d \u043c\u043e\u0436\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/chatium_qr.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/chatium_qr_active.png","subitems":[],"url":"\/pl\/chatium\/school\/enter?path=https:\/\/university.zerocoder.ru\/c\/s\/lesson\/343287840","params":{},"target":null,"imageUrl":"\/pl\/chatium\/control\/app-link?qr=1&url=https%3A%2F%2Funiversity.zerocoder.ru%2Fc%2Fs%2Flesson%2F343287840&hash=af1d5729a64eeb1fc7205d67136140ca&withoutAuth=true"}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":{"id":"navmenu","label":"\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u043e\u0435 \u043c\u0435\u043d\u044e","hideLabel":true,"iconUrl":"\/public\/img\/service\/navmenu.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/navmenu_active.png","subitems":[{"id":"openinapp","label":"\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438","hideLabel":true,"iconUrl":"\/public\/img\/service\/openinapp.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/openinapp_active.png","subitems":[],"url":"\/pl\/chatium\/control\/app-link?url=https%3A%2F%2Funiversity.zerocoder.ru%2Fc%2Fs%2Flesson%2F343287840","params":{},"target":null}],"url":null,"params":{},"target":null}};
+					</script>
+	
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<script>
+	$(document).ready(function () {
+		const banner = $('#top-notification-coming-soon');
+		banner.find('a.banner-close-top').on('click', function () {
+			$.post('/pl/user/profile/close-top-notification-banner', {type: $(this).data('type')}, function () {
+				banner.remove();
+			});
+		});
+	});
+</script>
+
+<style>
+	.banner-close-top {
+		float: right;
+		margin-right: 10px;
+		text-decoration: none!important;
+		font-size: 28px;
+	}
+</style>
+<div class="container">
+    	<div class="standard-logo">
+		<a href="/" class="logo-link">
+							<img src='//fs-thb03.getcourse.ru/fileservice/file/thumbnail/h/dc921bdc68ce6d2017e03a843543ce3d.jpg/s/x50/a/256825/sc/233'>					</a>
+			</div>
+		
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="/teach/control/stream/view/id/934451178">VIBE-CODING и автономные агенты</a></li>
+</ul>				
+<link rel='stylesheet' type='text/css' href='/public/css/common.css'>
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '3 ТБ';
+    window.usedSize = '2,913 ТБ';
+    window.usedSizePercent = '97 %';
+</script>
+<style>
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+				</div>
+			<div class="clearfix"></div>
+				<h1>
+										<a href="/teach/control/stream/view/id/934479168">Модуль 4. Работа сервиса локально и удаленно. Финальный проект</a>						
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0; margin-bottom: 60px;width: auto;">
+		
+		<div class="lesson-header-block row-section"
+			 style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">VCd03.Финальный проект. Создание автономного агента</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation"
+					 style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																																					<a target="_self" href='/pl/teach/control/lesson/view?id=343287827'><span
+													class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs"
+											 style="font-weight: normal; font-size: 1em; line-height: 16px "> VCd02.Собственный VPS (виртуальный сервер), деплой python скрипта на сервер</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									3 из 5 уроков								</span>
+								<div class="user-state-has_mission">
+									<div style="font-weight: normal; font-size: 1.2em"
+										 class="user-state-label"
+									>
+										Есть задание									</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																																						<a target="_self" href='/pl/teach/control/lesson/view?id=343288012'>Следующий урок <span
+														class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs"
+												 style="font-size: 1em; line-height: 16px; font-weight: normal">Обратная связь по модулю "МОДУЛЬ 4: Работа сервиса локально и удаленно. Финальный проект"</div>
+																											</td>
+						</tr>
+					</table>
+				</div>
+					</div>
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1751010530" id="lite-block-live-wrapper-1752576558-2665" class="lite-block-live-wrapper o-lt-raw o-lt-raw-html o-html_n" data-block-id="2166747628">
+
+<style>
+	#ltBlock2166747628 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747628" data-block-id="2166747628"
+               class="lt-block lt-view raw-html lt-raw lt-raw-html html_n"
+     data-code="b-d572d"
+          >
+	<div class="lt-block-wrapper">
+	<div id="rawHtml2643465" data-raw-editable="true" data-param="rawValue" data-mode="text/html">
+			<!-- [CSS] Внутри урока -->
+<link rel="stylesheet" href="/pl/cms/layout/css?id=38669&hash=81e949a2a5b46e1d93f4375adc0235a1&bundle=1">
+
+<!-- [JS] Внутри урока -->
+<script src="/pl/cms/layout/js?id=38669&hash=81e949a2a5b46e1d93f4375adc0235a1&bundle=1"></script>	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2665');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747628', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747628-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1751010530" id="lite-block-live-wrapper-1752576558-2719" class="lite-block-live-wrapper o-lt-raw o-lt-raw-css o-lt-system-block o-lt-invisible-block" data-block-id="2166747629">
+
+<style>
+	#ltBlock2166747629 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747629" data-block-id="2166747629"
+               class="lt-block lt-view raw-css lt-raw lt-raw-css lt-system-block lt-invisible-block"
+     data-code="b-3aa03"
+          >
+	<div class="lt-block-wrapper">
+	<style id="rawCss5577301">.block-set p {
+    margin: 5px 0px;
+}
+.f-text h1, .f-text h2, .f-text h3, .f-text h4, .f-text h5, .f-text h6 {
+    margin: 15px 0px 10px 0px;
+    line-height: 1.3;
+}
+
+
+.grey-block {
+	background-color: #E8E8E8;
+	padding: 15px 20px;
+}
+.red-block {
+	background-color: #fdebec;
+	padding: 15px 20px;
+}
+
+
+.vio-text {
+    padding: 10px 10px 10px 14px;
+    border-radius: 4px 10px 10px 4px;
+    position: relative;
+    background-color: var(--grayColor);
+}
+
+.vio-text:before {
+    content: "";
+    height: 100%;
+    width: 4px;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color_1);
+}
+
+.img50 img{
+	max-width: 50%;
+}
+.img70 img{
+	max-width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+.img50 img, .img70 img{
+	max-width: 100%;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1020px){
+.img50 img, .img70 img{
+	max-width: 70%;
+}
+}</style>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2719');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747629', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747629-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1751010530" id="lite-block-live-wrapper-1752576558-2824" class="lite-block-live-wrapper o-lt-embed o-lt-embed-page o-lt-system-block o-lt-invisible-block" data-block-id="2166747630">
+	<style>
+		#ltBlock1968469146 /*.block-box{
+	background: rgb(229,255,220);
+	background: linear-gradient(180deg, rgba(229,255,220,1) 0%, rgba(205,255,187,1) 89%);
+} 
+#ltBlock1968469146 */
+
+/* text_accent */
+.text_accent { 
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: var(--grayColor);
+}
+
+@media (max-width: 640px) { 
+#ltBlock1968469146 
+  .text_accent { 
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+/* / text_accent */	</style>
+
+<style>
+	#ltBlock1968469146 .lt-block-wrapper {
+		padding-top: 30px; padding-bottom: 30px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1968469146" data-block-id="1968473713"
+     data-has-css="true"          class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-6221d"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-10 col-md-offset-1 text-left" style="">
+			<div
+	id="builder7491669"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; color: #000000; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  text_accent text-justify"
+	id="ad069e3f46"
+>
+	<div style='' class='text-normal f-text' data-param='items/parts/text1/inner/text' data-editable='true'><p>Дорогой студент! Интерфейсы современных приложений могут очень быстро меняться. Если вдруг&nbsp;то, что видишь&nbsp;ты, отличается от&nbsp;того, что демонстрирует эксперт, настолько, что тебе непонятно, куда нажимать&nbsp;— напиши об&nbsp;этом в&nbsp;учебный чат, указав номер урока и&nbsp;видео. Наш куратор обязательно поможет тебе разобраться, а&nbsp;мы&nbsp;постараемся как можно скорее актуализировать материал :)</p></div>	<div class="add-redesign-subblock" data-id="1968473713">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#ad069e3f46 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder7491669 input[type="radio"]').length == 1 && $('#builder7491669 input[type="radio"]').prop('checked') ) {
+			$('#builder7491669 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2824');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747630', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747630-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752147409" id="lite-block-live-wrapper-1752576558-2858" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747631">
+
+<style>
+	#ltBlock2166747631 .lt-block-wrapper {
+		padding-top: 30px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747631" data-block-id="2166747631"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-e5717"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder5072392"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text "
+	id="a89c6cb036"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><p class="" id="22a7cde5-de79-81f2-8018-f9a6ee6194fa">
+</p><h1 class="" id="22a7cde5-de79-8116-880a-f0abe8c59719">Результат дня</h1><blockquote class="" id="22a7cde5-de79-81fd-9106-fc99e5975938">Сегодня ты научишься собирать полноценное AI-приложение: от генерации промптов и обработки сайта до создания веб-интерфейса и упаковки проекта в Docker-контейнер. Мы повторим ключевые навыки из прошлых уроков и применим их для создания автономного агента, который генерирует рекламные посты по содержимому веб-страниц. А в конце тебя ждет персональное задание на финальный проект!</blockquote><p class="" id="22a7cde5-de79-819c-b92d-d6cbb2d80943">
+</p><p class="" id="22a7cde5-de79-81ca-80d7-fab5c89727da">▶️ Время чтения и просмотра: ~ 1,5 часа</p><p class="" id="22a7cde5-de79-81d2-bcd7-cffa64aeb279">⏱ Время выполнения задания: ~ 1 час</p><h1 class="" id="22a7cde5-de79-81d1-b8fc-e4cf4cfc4dcf">Теория на сегодня</h1><h2 class="" id="22a7cde5-de79-81fc-a9d6-f9b030a2b998">1. Финальный проект</h2></div>	<div class="add-redesign-subblock" data-id="2166747631">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a89c6cb036 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder5072392 input[type="radio"]').length == 1 && $('#builder5072392 input[type="radio"]').prop('checked') ) {
+			$('#builder5072392 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2858');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747631', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747631-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752160163" id="lite-block-live-wrapper-1752576558-2909" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="2166747632">
+
+<style>
+	#ltBlock2166747632 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747632" data-block-id="2166747632"
+               class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence"
+     data-code="b-583ec"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<div id="vhi-root-6ebed27bc41e5571692f5a03ab4728df"
+	 data-file-id="712881632"
+	 data-user-id="255748303"
+	 data-video-hash="6ebed27bc41e5571692f5a03ab4728df"
+	 data-lesson-id="343287840"
+	 data-iframe-src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiNmViZWQyN2JjNDFlNTU3MTY5MmY1YTAzYWI0NzI4ZGYiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=36d9abadd3f0f9cba55a6c052c029d92&new-design=1"
+	 data-master-play-list-url=""
+	 data-get-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/get?user-id=255748303&video-hash=6ebed27bc41e5571692f5a03ab4728df"
+	 data-set-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/set?&current-time={seconds}&user-id=255748303&video-hash=6ebed27bc41e5571692f5a03ab4728df"
+	 data-save-position-key="6ebed27bc41e5571692f5a03ab4728df"
+	 class="vhi-root js--vhi-root"
+	 data-place="new-player">
+			<iframe id="vhplayeriframe-6ebed27bc41e5571692f5a03ab4728df"
+				src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiNmViZWQyN2JjNDFlNTU3MTY5MmY1YTAzYWI0NzI4ZGYiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=36d9abadd3f0f9cba55a6c052c029d92&new-design=1"
+				class="vhi-iframe js--vhi-iframe"
+				allow="autoplay; encrypted-media; clipboard-read; clipboard-write;"
+				sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-downloads"
+				allowfullscreen
+				frameborder="0"
+				scrolling="no"
+		></iframe>
+	</div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2909');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747632', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747632-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165277" id="lite-block-live-wrapper-1752576558-2943" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747633">
+
+<style>
+	#ltBlock2166747633 .lt-block-wrapper {
+		padding-top: 30px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747633" data-block-id="2166747633"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-39752"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder8543167"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text "
+	id="a509e81866"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Финальный проект ↘️</summary><div class="indented"><p id="22a7cde5-de79-803b-948c-e08ac719b86f">В сегодняшнем уроке отсутствует теория: необходимые навыки мы будем вспоминать на основе предыдущих занятий. В рамках проекта, ты сделаешь <strong>автономного агента по генерации таргетированной рекламы</strong>. Сегодняшний проект будет большим, поэтому, для удобства работы, разобьём объём работы на несколько модульных подпроектов. Установим следующие требования для нашей работы:</p><ul class="bulleted-list" id="22a7cde5-de79-806a-ae9d-f879510be6a2"><li style="list-style-type:disc">Весь проект долен быть запакован в один Docker-контейнер;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-8047-878d-c7c81e805cbc"><li style="list-style-type:disc">Общение с LLM-моделью будем осуществлять через ProxyAPI;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-80f6-ade0-cb1c34707ec3"><li style="list-style-type:disc">Генерация поста должна осуществляться на веб-сайте;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-8081-b48f-f7b2d4e469ec"><li style="list-style-type:disc">Должна быть реализована возможность хранения постов;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-8056-93f4-eab8de5a163e"><li style="list-style-type:disc">Для обновления будем использовать скрипт обновления в соответствии с предыдущим уроком. </li></ul><p id="22a7cde5-de79-8060-b967-dd1522778c18">
+</p></div></details><details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Техническое задание проекта</summary><div class="indented"><h3 id="22c7cde5-de79-8096-8a14-d303d9372b63">Автономный агент для генерации рекламы</h3><h3 id="22c7cde5-de79-80c1-9bec-ca7df7e25678">🎯 Цель</h3><p id="22c7cde5-de79-8038-b48d-eee6257d83d1">Создать автономного программного агента, который по содержимому указанной веб-страницы автоматически генерирует <strong>таргетированный рекламный пост</strong>.</p><h3 id="22c7cde5-de79-8024-8583-cd0888a96a25">⚙️ Описание логики работы</h3><ol class="numbered-list" id="22c7cde5-de79-8037-8f6b-c7107fb3f8e3" start="1" type="1"><li><strong>Загрузка страницы</strong><p id="22c7cde5-de79-80e7-b786-f73cbd264b10">— Получает HTML по URL, извлекает чистый текст с помощью <code>BeautifulSoup</code>.</p></li></ol><ol class="numbered-list" id="22c7cde5-de79-8029-8480-f5cf42207932" start="2" type="1"><li><strong>Генерация системных промптов</strong><p id="22c7cde5-de79-8082-b1cb-e3c9e43f7422">— Формирует 5–6 промптов для следующих агентов (изучение аудитории, определение выгод, стиль речи и т.д.).</p></li></ol><ol class="numbered-list" id="22c7cde5-de79-80ff-8457-f328d5092c53" start="3" type="1"><li><strong>Выполнение промптов</strong><p id="22c7cde5-de79-80ca-a591-f9320407ed13">— По каждому промпту делает отдельный запрос к LLM, сохраняет ответы.</p></li></ol><ol class="numbered-list" id="22c7cde5-de79-809c-8688-ffd2feb2f0e2" start="4" type="1"><li><strong>Сборка финального рекламного поста</strong><p id="22c7cde5-de79-8090-a10b-f8a56be52aff">— Объединяет все результаты, составляет финальный текст длиной 600–900 символов.</p></li></ol><h3 id="22c7cde5-de79-805e-be62-f8330f78aeef">✅ Функциональные требования</h3><ul class="bulleted-list" id="22c7cde5-de79-809d-9f34-d97c0bb4dc95"><li style="list-style-type:disc">Агент запускается одной функцией/командой с аргументом <code>url</code>.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-80cf-9ef4-ca06a8cec8b0"><li style="list-style-type:disc">Все шаги выполняются автоматически от загрузки страницы до готового рекламного текста.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-8076-aa88-c84d10134377"><li style="list-style-type:disc">Используется OpenAI API, предпочтительно модель <code>gpt-4o</code>, допустима <code>gpt-3.5-turbo</code>.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-80af-bdc0-f934928da23b"><li style="list-style-type:disc">Все обращения к OpenAI централизованы через модуль <code>openai_module.py</code>.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-805d-87fe-cb1dcf144f69"><li style="list-style-type:disc">При ошибках API или сети предусмотрены повторы (до 3 раз с экспоненциальной задержкой).</li></ul><ul class="bulleted-list" id="22c7cde5-de79-8090-8619-d3c8d47e23ce"><li style="list-style-type:disc">Возвращаемый результат — строка с готовым рекламным текстом (без хэштегов).</li></ul><h3 id="22c7cde5-de79-80ac-9c1e-d3856a262a0d">🛡 Нефункциональные требования</h3><ul class="bulleted-list" id="22c7cde5-de79-80e9-a770-f86ed8c3c3ef"><li style="list-style-type:disc">Код оформлен по PEP8, с полной типизацией (проверка через <code>mypy</code>).</li></ul><ul class="bulleted-list" id="22c7cde5-de79-803e-bc0c-fcceef3501ba"><li style="list-style-type:disc">Зависимости: <code>openai</code>, <code>requests</code>, <code>beautifulsoup4</code>, <code>python-dotenv</code>, <code>tenacity</code>.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-80b4-b2bb-c0824d841214"><li style="list-style-type:disc">Минимальная версия Python — 3.10.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-80cc-bd44-e43ca9e3b76d"><li style="list-style-type:disc">API-ключ хранится в <code>.env</code> или переменной окружения, не жёстко задан в коде.</li></ul><ul class="bulleted-list" id="22c7cde5-de79-80be-b7cf-fb1e8e022f63"><li style="list-style-type:disc">Логирование не должно выводить ключи и конфиденциальные данные.</li></ul><h3 id="22c7cde5-de79-802c-a3b7-c1757600cc7b">📁 Структура проекта</h3><script crossorigin="anonymous" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" wfd-invisible="true"></script><link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" referrerpolicy="no-referrer" rel="stylesheet" wfd-invisible="true"><pre class="code language-plain" id="22c7cde5-de79-8002-bbc4-e3fba98b6c08" tabindex="0"><code class="Text language-plain" style="white-space:pre-wrap;word-break:break-all">agent_project/
+├── agent.py           # Точка входа, содержит функцию run(url)
+├── openai_module.py   # Работа с OpenAI API
+├── requirements.txt
+└── README.md
+</code></pre><hr id="22c7cde5-de79-8014-9f79-c7eb165272a3"><h2 id="22c7cde5-de79-80d9-9c8e-d7deb121fd89">🧪 Приёмка</h2><p id="22c7cde5-de79-8061-9c0b-ef45e64104f6">Агент считается готовым, если:</p><ul class="bulleted-list" id="22c7cde5-de79-802b-972d-c19d0987823d"><li style="list-style-type:disc">Команда <code>python agent.py &lt;url&gt;</code> возвращает логичный, связный рекламный текст;</li></ul><ul class="bulleted-list" id="22c7cde5-de79-8056-ad9a-c21dc766d88a"><li style="list-style-type:disc">Ошибки сети и API обрабатываются корректно;</li></ul><ul class="bulleted-list" id="22c7cde5-de79-8029-8f8c-ee8aaee8361c"><li style="list-style-type:disc">Тесты (если предусмотрены) проходят без ошибок;</li></ul><ul class="bulleted-list" id="22c7cde5-de79-804a-931a-ee0695da9ad8"><li style="list-style-type:disc">Код легко читается и может быть повторно использован.</li></ul><hr id="22c7cde5-de79-80e6-aec8-c57f68220249"><p id="22c7cde5-de79-8002-8af3-c4c3c4875981">Если нужно, могу также подготовить черновик <code>agent.py</code>, <code>README.md</code> или тестов.</p></div></details><h2 id="22a7cde5-de79-814e-ac44-fed93fbab966">2. Генерация модулей проекта</h2></div>	<div class="add-redesign-subblock" data-id="2166747633">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a509e81866 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder8543167 input[type="radio"]').length == 1 && $('#builder8543167 input[type="radio"]').prop('checked') ) {
+			$('#builder8543167 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2943');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747633', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747633-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752161446" id="lite-block-live-wrapper-1752576558-2964" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="2166747634">
+
+<style>
+	#ltBlock2166747634 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747634" data-block-id="2166747634"
+               class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence"
+     data-code="b-c7c61"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<div id="vhi-root-d853ac5c3c8809d2401541bb7ab3684c"
+	 data-file-id="712887119"
+	 data-user-id="255748303"
+	 data-video-hash="d853ac5c3c8809d2401541bb7ab3684c"
+	 data-lesson-id="343287840"
+	 data-iframe-src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiZDg1M2FjNWMzYzg4MDlkMjQwMTU0MWJiN2FiMzY4NGMiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=4bdbb6a6f85ef953050ad536ef31680a&new-design=1"
+	 data-master-play-list-url=""
+	 data-get-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/get?user-id=255748303&video-hash=d853ac5c3c8809d2401541bb7ab3684c"
+	 data-set-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/set?&current-time={seconds}&user-id=255748303&video-hash=d853ac5c3c8809d2401541bb7ab3684c"
+	 data-save-position-key="d853ac5c3c8809d2401541bb7ab3684c"
+	 class="vhi-root js--vhi-root"
+	 data-place="new-player">
+			<iframe id="vhplayeriframe-d853ac5c3c8809d2401541bb7ab3684c"
+				src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiZDg1M2FjNWMzYzg4MDlkMjQwMTU0MWJiN2FiMzY4NGMiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=4bdbb6a6f85ef953050ad536ef31680a&new-design=1"
+				class="vhi-iframe js--vhi-iframe"
+				allow="autoplay; encrypted-media; clipboard-read; clipboard-write;"
+				sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-downloads"
+				allowfullscreen
+				frameborder="0"
+				scrolling="no"
+		></iframe>
+	</div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-2964');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747634', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747634-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165279" id="lite-block-live-wrapper-1752576558-3238" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747635">
+
+<style>
+	#ltBlock2166747635 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747635" data-block-id="2166747635"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-575a0"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder5969965"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  img70"
+	id="a244c00dff"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Генерация модулей проекта ↘️</summary><div class="indented"><p id="22a7cde5-de79-80f2-bee6-e6c7821b342a">Подключаемся к серверу по протоколу ssh. Для этого, открываем командную строку (cmd) и вводим туда <strong>ssh root@<ip-адрес></ip-адрес></strong>. В последующем запросе вводим пароль от сервера. Для безопасности, он не отображается в консоли, но всё равно вводится как обычно. При успешном входе, появляется возможность ввода команд.</p><figure class="block-color-gray_background callout" id="22a7cde5-de79-80a2-a716-dfa3b29bd26e" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">Если ты используешь облачный или выделенный сервер от IHOR, то реквизиты можно узнать, нажав кнопку  <code>Инструкция </code> в списке серверов. </div></figure><figure class="image" id="22a7cde5-de79-80b8-9d1a-c8b5b155a545"><img src="https://i.ibb.co/HTWjfVMC/eed3e14d8879.png"></figure><p id="22a7cde5-de79-8005-8ece-f419fecb8adb">Ставим Docker, прописав команду <code>curl -fsSL <a href="https://get.docker.com" target="_blank">https://get.docker.com</a> -o&nbsp;</code><code><a href="http://get-docker.sh" target="_blank">get-docker.sh</a></code><code>&nbsp;&amp;&amp; sh get-docker.sh </code>. Выполняется скрипт установщика. </p><figure class="image" id="22a7cde5-de79-8064-9d2e-c5e362ceb54e"><img src="https://i.ibb.co/4wV5GLVq/40d48802f13d.png"></figure><p id="22a7cde5-de79-8096-bb6f-d8058bb76404">Создаём на рабочем столе папку с нашим проектом, назвав её <strong>Target</strong>. Перетаскиваем эту папку на ярлык Cursor для быстрого создания проекта в этой папке. Ещё раз проговорим модули, необходимые для дальнейшей работы:</p><ul class="bulleted-list" id="22a7cde5-de79-80eb-b105-e48880f3009d"><li style="list-style-type:disc">Модуль общения с нейросетью, обрабатывающий запросы пользователя. При этом, данный модуль должен как самостоятельно генерировать шаги для будущих запросов (псевдоагент), так и отвечать на эти запросы;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-8039-aa35-d309a0238f75"><li style="list-style-type:disc">Модуль парсинга сайтов;</li></ul><ul class="bulleted-list" id="22a7cde5-de79-80d0-be7b-d130aed2a836"><li style="list-style-type:disc">Модуль-обработчик. </li></ul><p id="22a7cde5-de79-80f9-ac05-d52b8e5c674f">Для реализации первого шага, ты можешь взять функцию <strong>ask_openai </strong>из предыдущего урока. Так как Cursor лучше взаимодействует с пользовательскими запросами, если уже имеется пример реализации кода, скормим данную функцию в промпт. Нажимаем левой кнопкой мыши на панель файлов → <strong>New File…</strong> и создаём файл <strong>openai_template.py</strong>. Копируем в него показанный на скрине код.</p><figure class="image" id="22a7cde5-de79-80fe-84c3-fdabdfeccca7"><img src="https://i.ibb.co/gLBgRts4/73d544ad029d.png"></figure><p id="22a7cde5-de79-808d-b653-ec5cb997eadd">В <strong>Cursor Settings → Rules</strong>, напиши следующие правила, для удобства работы:</p><blockquote id="22a7cde5-de79-80ed-a44c-e783505d8255">Файл .env существует в проекте всегда, просто он внесён в .cursorignore, и поэтому, ты его не видишь. Не нужно его искать, не нужно его создавать. Создавай только envExample, и я сам буду вписывать значения в реальный env. Не забывай про функцию load_env. <br><br>Не генерируй <br><a href="http://Reamde.md">R</a>EADME.md без запроса.</blockquote><p id="22a7cde5-de79-805a-a625-e5269d6ada22">Справа, в панели диалогов, выберем модель <strong>claude-3.5-sonnet</strong> и сделаем запрос, указанный ниже. В результате, мы получим функцию <strong>generate_future_prompts_from_ur</strong>l, в которой мы реализуем модуль общения: делаем GET-запрос на сервер и получаем текст запроса с помощью библиотеки для HTML-парсинга <strong>Beautiful Soup</strong>. </p><blockquote id="22a7cde5-de79-80bd-9be4-d805d0eb9392">Реализуем модуль openai_module.py по частям<br><br>1. def generate_future_prompts_from_url(url: str) -&gt; dict<br>[Контекст]:<br>Это функция-предсказатель. Мы просим у модели сгенерировать 5–6 системных промптов, которые понадобятся агенту на следующих этапах, чтобы анализировать контент по ссылке и писать рекламу.<br><br>[Реализация]:<br><br>Скачай HTML содержимое по url.<br><br>Вырежи оттуда чистый текст (BeautifulSoup, get_text()).<br><br>Составь системный промпт автоматически (на основе шаблона вроде: «Ты создаёшь цепочку агентов, анализирующих сайт и генерирующих таргетированные рекламные тексты. Придумай 5–6 системных промптов для агентов»).<br><br>Отправь этот промпт в OpenAI API. Шаблон запросника лежит в @openai_template.py<br><br>Верни JSON вида:<br>{<br>  "prompts": [<br>    "Ты агент, анализирующий ЦА...",<br>    "Ты агент, определяющий выгоды продукта...",<br>    ...<br>  ]<br>}</blockquote><figure class="block-color-gray_background callout" id="22a7cde5-de79-8030-b5ea-f3edb5bf9a8d" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%"><p id="22a7cde5-de79-803a-a14a-d195f9352177">При необходимости перевода того или иного текста, можно воспользоваться функцией Quick Edit, и в появившемся запросе написать промпт с требованием перевода на русский язык.<br><br></p><figure class="image" id="22a7cde5-de79-8027-8867-f73517594cd6"><img src="https://i.ibb.co/6cDNGfsw/565e833d4258.png"></figure></div></figure><p id="22a7cde5-de79-8096-a499-feaccb313c89">Для функции-парсера, мы пишем следующий промпт. Cursor создаёт функцию <strong>query_with_custom_system_prompt</strong>. </p><blockquote id="22a7cde5-de79-8025-a2f4-ef8e961a1e59"> Дополняем @openai_module.py  второй функцией. Ориентируйся так же на @openai_template.py<br> 2. def query_with_custom_system_prompt(prompt: str, content: str) -&gt; str<br>[Контекст]:<br>Это функция-агент. Получает на вход кастомный системный промпт и контент, по которому нужно что-то сгенерировать.<br><br>[Реализация]:<br><br>Использует переданный prompt как системную роль.<br><br>В content — вся нужная инфа: например, текст с сайта или частичные выводы предыдущих агентов.<br><br>Возвращает один готовый текст-ответ от модели.</blockquote><p id="22a7cde5-de79-8000-ba6f-de620d039c77">Для третьего модуля, обобщающей функции, укажем следующий промпт:</p><blockquote id="22a7cde5-de79-80b4-aead-eb890b2b7a83">И точно  так же третья функция<br>generate_final_ad_post(all_results: list[str]) -&gt; str<br>[Контекст]:<br>Это финальный этап. Когда все агенты уже поработали, мы собираем их ответы и просим модель на их основе сгенерировать готовый рекламный пост.<br><br>[Реализация]:<br><br>Склеиваем all_results в один большой content.<br><br>Системный промпт задаём что-то вроде:<br><br>"Ты агент, который составляет рекламный пост по результатам анализа. Вот все выводы предыдущих агентов. На основе этого, создай финальный текст таргетированной рекламы."<br><br>Возвращаем один готовый текст поста.</blockquote><p id="22a7cde5-de79-80a9-8a44-d98d5921ea80">Сохраняем готовые модули. Должны получиться три функции со структурой, примерно показанной ниже.  </p><figure class="block-color-gray_background callout" id="22a7cde5-de79-8066-aec6-dc241ee2eb43" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22a7cde5-de79-8028-913d-fb14464684ac">Внимательно проверь код на предмет ошибок! В частности, при реализации кода в течение лекции, возникла ошибка, связанная с аргументами наших функций. Для исправления, мы написали слеудующий код:</p><blockquote id="5fda7d98-d3e2-4a8c-b3dc-1036682fe3d1">Посмотри на функцию в модуле @openai_template.py . Она принимает только системный промпт, но не принимает контент, который пользователь ему отправляет. А теперь посмотри на код, получившийся в модуле @openai_module.py . Здесь контент не попадает в эту функцию, а попадает только как его часть, а где-то местами попадает контент как системный промпт. Нужно переписать функцию в модуле @openai_template.py , чтобы она принимала им основной запрос и системный промпт, а и подстроить под это взаимодействие в модуле @openai_module.py .</blockquote><p id="22a7cde5-de79-80c4-bf57-ff26d4d09eca">Также убедись, что Cursor создал файл среды<strong> .env</strong>, в котором помещён API-ключ OpenAPI (ProxyAPI), а в <strong>template.py</strong> есть соответствующие импорты и загрузки. </p><figure class="image" id="22a7cde5-de79-8044-825b-ef17f84e9c51"><img src="https://i.ibb.co/yLdVfKr/72716512928e.png"></figure></div></figure><figure class="image" id="22a7cde5-de79-8023-97b9-e9fa74306e05"><img src="https://i.ibb.co/j9bjwqW1/8b2227a74b68.png"></figure></div></details>
+
+<h2 id="22a7cde5-de79-819c-9f15-e037e53ffc97">3. Генерация файла main.py </h2></div>	<div class="add-redesign-subblock" data-id="2166747635">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a244c00dff .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder5969965 input[type="radio"]').length == 1 && $('#builder5969965 input[type="radio"]').prop('checked') ) {
+			$('#builder5969965 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3238');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747635', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747635-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752162512" id="lite-block-live-wrapper-1752576558-3256" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="2166747636">
+
+<style>
+	#ltBlock2166747636 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747636" data-block-id="2166747636"
+               class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence"
+     data-code="b-f272d"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<div id="vhi-root-954ec53c5539ffea557e91ad6920895e"
+	 data-file-id="712894615"
+	 data-user-id="255748303"
+	 data-video-hash="954ec53c5539ffea557e91ad6920895e"
+	 data-lesson-id="343287840"
+	 data-iframe-src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiOTU0ZWM1M2M1NTM5ZmZlYTU1N2U5MWFkNjkyMDg5NWUiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=43ce12664563db9d4327da6ab049236a&new-design=1"
+	 data-master-play-list-url=""
+	 data-get-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/get?user-id=255748303&video-hash=954ec53c5539ffea557e91ad6920895e"
+	 data-set-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/set?&current-time={seconds}&user-id=255748303&video-hash=954ec53c5539ffea557e91ad6920895e"
+	 data-save-position-key="954ec53c5539ffea557e91ad6920895e"
+	 class="vhi-root js--vhi-root"
+	 data-place="new-player">
+			<iframe id="vhplayeriframe-954ec53c5539ffea557e91ad6920895e"
+				src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiOTU0ZWM1M2M1NTM5ZmZlYTU1N2U5MWFkNjkyMDg5NWUiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=43ce12664563db9d4327da6ab049236a&new-design=1"
+				class="vhi-iframe js--vhi-iframe"
+				allow="autoplay; encrypted-media; clipboard-read; clipboard-write;"
+				sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-downloads"
+				allowfullscreen
+				frameborder="0"
+				scrolling="no"
+		></iframe>
+	</div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3256');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747636', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747636-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165281" id="lite-block-live-wrapper-1752576558-3284" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747637">
+
+<style>
+	#ltBlock2166747637 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747637" data-block-id="2166747637"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-57dd9"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder4969996"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  img70"
+	id="aa06f87f6e"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Генерация файла main.py ↘️</summary><div class="indented"><figure class="block-color-gray_background callout" id="22a7cde5-de79-800e-a991-ccca794679c0" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22a7cde5-de79-80d5-b2a3-da048155d503">Перед началом работы, проверь проброс портов, прописав в командную строку команду sudo ufw allow 80. </p></div></figure><p id="22a7cde5-de79-80ba-b3e0-fbac964243af">Переходим к созданию файла <strong>main.py.</strong> В нём мы также должны предусмотреть графическую Frontend-реализацию генератора постов, например, с Jinja2 или Flask. Backend выполним на основе FastAPI. В соответствии с написанным, генерируем интерфейс во Flask следующим промптом, подробно описывая требуемые фреймворки и функционал:</p><blockquote id="60d2d290-11db-48e9-80fe-029cab477387">Файл: main.py<br><br>Создай полноценное Flask-приложение, которое реализует веб-интерфейс и логику автономного агента для генерации таргетированной рекламы.<br>Функции, с которыми нужно взаимодействовать, уже реализованы в отдельном модуле (например, openai_module.py) и называются:<br><br>generate_future_prompts_from_url(url: str) -&gt; dict<br><br>query_with_custom_system_prompt(prompt: str, content: str) -&gt; str<br><br>generate_final_ad_post(all_results: list[str]) -&gt; str<br><br>📋 Функциональность приложения:<br>Интерфейс (HTML через Flask): Одно поле для ввода URL (веб-страницы, которую нужно анализировать). Кнопка «Анализировать». После нажатия: показываются блоки шагов, придуманные моделью через generate_future_prompts_from_url(); по этим шагам автоматически запускаются query_with_custom_system_prompt(), и результаты появляются снизу, один за другим; затем вызывается generate_final_ad_post(), и готовый рекламный пост выводится в последнем блоке.<br><br>Интерфейс должен быть:<br>минималистичным, без CSS-фреймворков; динамически обновляющимся (но можно использовать только Python + Flask — через переходы между страницами и шаблоны Jinja2, без JS/AJAX).<br><br>🛠 Структура:<br>При первом заходе — пустая форма. После отправки — POST-запрос обрабатывается: Вызывается generate_future_prompts_from_url(url), Потом последовательно вызываются query_with_custom_system_prompt() по каждому prompt'у, После чего вызывается generate_final_ad_post() со всеми результатами. Все этапы рендерятся на одном экране: Сначала список сгенерированных системных промптов (шагов), Потом текстовые блоки с ответами агентов, В конце финальный рекламный пост.<br></blockquote><p id="22a7cde5-de79-80a1-b1f3-eec9453c6b70">У нас создались файлы<strong> index.html </strong>с базовым HTML и CSS наполнением, и собственно <strong>main.py</strong>. Попробуй запустить программу, прописав в терминале <code>python .\main.py</code></p><figure class="block-color-gray_background callout" id="22a7cde5-de79-80f0-a996-c724fb0c778c" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22a7cde5-de79-80f2-98ea-c93eb05ff94f">Не забудь скачать необходимые фреймворки через pip. Для установки необходимо ввести в терминал <strong>pip install &lt;название&gt;</strong> (например, <code>pip install flask</code>). </p></div></figure><figure class="block-color-gray_background callout" id="22a7cde5-de79-80bc-8ebc-d1dc5efb862b" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22a7cde5-de79-8097-97db-cdab481bb303">Напомним, как взять ключ API с сайта ProxyAPI:</p><ol class="numbered-list" id="22a7cde5-de79-80a0-96ab-c0a36ef325e8" start="1" type="1"><li>Заходим на сайт <a href="https://proxyapi.ru/" target="_blank">ProxyAPI</a> и входим в аккаунт;</li></ol><ol class="numbered-list" id="22a7cde5-de79-804d-bc5a-cab5f17b6399" start="2" type="1"><li>В консоли выбираем пункт <strong>Ключи API;</strong></li></ol><ol class="numbered-list" id="22a7cde5-de79-80c5-89af-d7b94ebc984a" start="3" type="1"><li>Вводим имя ключа (например, OpenAI), нажимаем <strong>Создать</strong>, копируем его и нажимаем <strong>Готово</strong>. Снова увидеть ключ целиком невозможно, поэтому копируйте его сразу. Одновременно можно иметь не более трёх ключей. При необходимости, ключи можно аннулировать. </li></ol><figure class="image" id="22a7cde5-de79-8068-9e40-e3d469b2721f"><img src="https://i.ibb.co/99y7hBD7/adf64628f2ef.png"></figure></div></figure><p id="22a7cde5-de79-800f-98b3-c0e833d98533">В терминале должно появиться сообщение об успешном запуске проекта на сервере. </p><figure class="image" id="22a7cde5-de79-8038-9862-c448513e7728"><img src="https://i.ibb.co/RkYM5rjS/506ed6db7a85.png"></figure><p id="22a7cde5-de79-8042-af27-ee786eeed25a">Убедись, что при переходе по адресу открывается интерфейс, подобный указанному на скриншоте. Также убедись, что сервер успешно отправляет различные GET-запросы. Полученный текст-рекламу можно дополнительно модифицировать, например, воспользовавшись сервисом <strong><a href="https://translate.yandex.ru/editor" target="_blank">Яндекс-редактор</a></strong>. </p><figure class="image" id="22a7cde5-de79-80f3-bfeb-d9e3a7410de2"><img src="https://i.ibb.co/v4gHhPyQ/84f7cd2d87f3.png"></figure><figure class="image" id="22a7cde5-de79-8070-b0d1-f2e367319e5a"><img src="https://i.ibb.co/9kNzXBVF/f8d18c92e8a3.png"></figure></div></details><h2 id="22a7cde5-de79-81d2-b478-ef954ce48a80">4. Упаковка программы в Docker-контейнер</h2></div>	<div class="add-redesign-subblock" data-id="2166747637">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#aa06f87f6e .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder4969996 input[type="radio"]').length == 1 && $('#builder4969996 input[type="radio"]').prop('checked') ) {
+			$('#builder4969996 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3284');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747637', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747637-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752164921" id="lite-block-live-wrapper-1752576558-3302" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="2166747638">
+
+<style>
+	#ltBlock2166747638 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747638" data-block-id="2166747638"
+               class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence"
+     data-code="b-398b9"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<div id="vhi-root-e03ddd59e6228c9592fdd7f1a868e6a4"
+	 data-file-id="712905886"
+	 data-user-id="255748303"
+	 data-video-hash="e03ddd59e6228c9592fdd7f1a868e6a4"
+	 data-lesson-id="343287840"
+	 data-iframe-src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiZTAzZGRkNTllNjIyOGM5NTkyZmRkN2YxYTg2OGU2YTQiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=c6ef2ce92ce3549a4d9e65cd8437fc5b&new-design=1"
+	 data-master-play-list-url=""
+	 data-get-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/get?user-id=255748303&video-hash=e03ddd59e6228c9592fdd7f1a868e6a4"
+	 data-set-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/set?&current-time={seconds}&user-id=255748303&video-hash=e03ddd59e6228c9592fdd7f1a868e6a4"
+	 data-save-position-key="e03ddd59e6228c9592fdd7f1a868e6a4"
+	 class="vhi-root js--vhi-root"
+	 data-place="new-player">
+			<iframe id="vhplayeriframe-e03ddd59e6228c9592fdd7f1a868e6a4"
+				src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiZTAzZGRkNTllNjIyOGM5NTkyZmRkN2YxYTg2OGU2YTQiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=c6ef2ce92ce3549a4d9e65cd8437fc5b&new-design=1"
+				class="vhi-iframe js--vhi-iframe"
+				allow="autoplay; encrypted-media; clipboard-read; clipboard-write;"
+				sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-downloads"
+				allowfullscreen
+				frameborder="0"
+				scrolling="no"
+		></iframe>
+	</div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3302');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747638', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747638-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165283" id="lite-block-live-wrapper-1752576558-3345" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747639">
+
+<style>
+	#ltBlock2166747639 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747639" data-block-id="2166747639"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-80cff"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder2889430"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  img70"
+	id="a243413e3e"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Упаковка программы в Docker-контейнер ↘️</summary><div class="indented"><p id="22a7cde5-de79-8023-8873-dacbe34ae3af">Для реализации упаковки в контейнер, напишем простой запрос:</p><blockquote id="22a7cde5-de79-806c-919e-ea972ad42ecd">Подготовь проект для деплоя в Docker hub</blockquote><p id="22a7cde5-de79-80f9-9d7f-c9b4eaede86b">В нашем случае, Cursor создаёт файлы <strong>requirements.txt </strong>(из которого, по желанию, можно убрать привязку к конкретным версиям), <strong>.dockerignore, DockerFile </strong>и пример файла среды <strong>.env</strong>. </p><p id="22a7cde5-de79-800d-8766-d042ee155290">Дополняем код поддержкой внешних подключений. Описываем задачу следующим запросом, с указанием на то, что запуск будет осуществляться на внешнем сервере:</p><blockquote id="03941586-4fc3-49b7-bba0-729ff258a55f">Сейчас я разворачиваю своё Flask-приложение, которое уже собрано и упаковано в Docker. Оно запускается через main.py и использует HTML-интерфейс на Flask для взаимодействия с OpenAI-модулем. Цель — запустить это приложение на сервере VPS так, чтобы оно было доступно по IP в браузере.<br><br>Что нужно сделать:<br>Я хочу запушить образ в Docker Hub и с сервера VPS его запулить. После этого запускаю контейнер через docker run, чтобы: приложение стартовало, оно было доступно извне по IP (например, http://123.123.123.123:80), Flask запускался на host="0.0.0.0" и port=5000.<br><br>Конкретные технические вопросы:<br>Нужно ли мне запускать контейнер с --network host или лучше пробрасывать порт явно через -p 80:5000? Цель — сделать приложение доступным в браузере снаружи. Я не использую Nginx или другие прокси.<br><br>Нужно ли открывать порт 80 на VPS вручную через ufw или iptables? У меня root-доступ есть.<br></blockquote><p id="22a7cde5-de79-8083-b54d-c05d1800598b">Cursor возаращает исправленный код, ответы н технические вопросы и шаги, которые нужно сделать:</p><ol class="numbered-list" id="22a7cde5-de79-803d-b3a4-c9ad6bb6b7f8" start="1" type="1"><li>Публикация образа в Docker Hub.</li></ol><ol class="numbered-list" id="22a7cde5-de79-80d9-a6e6-f9243d627d6b" start="2" type="1"><li>Настройка файрвола на сервере.</li></ol><ol class="numbered-list" id="22a7cde5-de79-80ca-9206-dcb27d11b897" start="3" type="1"><li>Деплой на сервере. </li></ol><p id="22b7cde5-de79-805a-899b-ce5dfe72848c">Выполняем предложенные нейросетью шаги. Для начала, заполни файл <strong>.env</strong>. Потом, пропиши в новом терминале (с путём в папке проекта) команду d<strong>ocker build -t &lt;Имя компьютера&gt;/&lt;Имя проекта, сгенерированное нейросетью&gt;:latest</strong> (в примере урока, <code>docker build -t argonpower/ad-content-generator:latest</code>). При необходимости выполняем логин командой <code>docker login</code> и сборку командой <strong>docker push -t &lt;Имя компьютера&gt;/&lt;Имя проекта, сгенерированное нейросетью&gt;:latest</strong> (например, <code>docker push -t argonpower/ad-content-generator:latest</code>)</p><figure class="block-color-gray_background callout" id="22b7cde5-de79-8098-b4f7-cb552b87e37c" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22b7cde5-de79-8024-9c92-d98b0267d8ac">Во время логина потребуется токен доступа к Docker Hub. Посмотреть его можно в панели пользователя на сайте <a href="http://app.docker.com/" target="_blank">Docker Hub</a> в разделе <strong>Settings →</strong> <strong>Personal Access Tokens</strong>.</p><figure class="image" id="22b7cde5-de79-8090-8def-ffbe1d17b32c"><img src="https://i.ibb.co/6JWBvN8b/f898458959c7.png"></figure></div></figure><p id="22b7cde5-de79-80c5-8327-ece287730a15">Теперь давайте сделаем скрипт обновления. Создай временный файл <strong>temp_update_script.sh</strong> и помести в него разработанный на прошлом уроке скрипт, поменяв в нём названия файла и токен. Этот скрипт мы дальше будем размещать на сервере. </p><figure class="image" id="22b7cde5-de79-805d-94bb-c328ef7b452d"><img src="https://i.ibb.co/0yw7M1h0/c721e42f2264.png"></figure><p id="22b7cde5-de79-80ef-9a8e-d1feae242663">Пишем в терминале сервера <code>cd root</code>, затем вызовем редактор nano и создадим файл <strong><a href="http://update.sh" target="_blank">update.sh</a></strong> командой <code>nano update.sh</code>. Копируем текст скрипта в командую строку. Нажимаем последовательно ctrl+O → Enter для сохранения изменений, затем ctrl+X для выхода из редактора. Запуск обновления производится командой <code>bash update.sh</code> . </p><figure class="image" id="22b7cde5-de79-8025-9bea-c0b5b6b3aaaa"><img src="https://i.ibb.co/wrYk40W5/8d55d4240507.png"></figure><p id="22b7cde5-de79-8093-99b2-f396d733d5de">В терминале, снова подключаемся к VPS/VDS серверу через <code>ssh root</code>. Исполняем шаги, предложенные нейросетью. Настраиваем файрволл, написав в терминал указанные ниже в разделе <strong>На VPS сервере</strong> команды. </p><figure class="image" id="22b7cde5-de79-8074-a20a-c45ba2b33325"><img src="https://i.ibb.co/mFyN4Z8w/076ac22183db.png"></figure><p id="22b7cde5-de79-8022-ae97-f38b4828a2e2">Напишем pull-запрос командой <strong>docker pull -t &lt;Имя компьютера&gt;/&lt;Имя проекта, сгенерированное нейросетью&gt;:latest </strong>(например, <code>docker pull -t argonpower/ad-content-generator:latest</code>). Запускаем Docker, прописав подсказанные Cursor команды. Удобнее заранее перевести  любом редакторе многострочный код в однострочный, для запуска в консоли. Убедись, что всё работает, выведя в консоль список контейнеров командой <code>docker ps</code>. </p><figure class="image" id="22b7cde5-de79-80a9-88be-dc75628e6ea1"><img src="https://i.ibb.co/Lhr6VKJ4/bc851e946de2.png"></figure><figure class="block-color-gray_background callout" id="22b7cde5-de79-807a-8ca3-e7da3cd74414" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%"><p id="22b7cde5-de79-80de-9949-e90600801b5e">
+</p><ul class="bulleted-list" id="22b7cde5-de79-80e0-ab41-d5e7d95d2f6c"><li style="list-style-type:disc">Обрати внимание на корректность ввода переменных среды, а также на то, что путь <strong>.env</strong> не находится в перечне <strong>.dockerignore</strong>. </li></ul><figure class="image" id="22b7cde5-de79-8093-8111-d9b6ff82ff8c"><img src="https://i.ibb.co/mC739VV6/a1f79fbb0e5e.png"></figure><ul class="bulleted-list" id="22b7cde5-de79-80a9-b620-f5e2168d3cf9"><li style="list-style-type:disc">Обрати внимание на возможные ошибки, если Cursor явно указывает на использование режима сети хоста (<strong>Host network mode</strong>), т.к. в нём используются IP и порты хоста. Для отладки программы можно работать как с IP и портом хоста, так и позволить Docker обработать их проброс до сервера. </li></ul><ul class="bulleted-list" id="22b7cde5-de79-80a6-a271-f1351fca4ea9"><li style="list-style-type:disc">Проверь, что необходимые порты (например, 5000), открыты. Их можно открыть командой<code>sudo ufw allow &lt;Порт&gt;</code> . </li></ul><ul class="bulleted-list" id="22b7cde5-de79-8076-9b9c-cfbe1cf58e6d"><li style="list-style-type:disc">Также обращай внимание на возможные ошибки форматирования ответов OpenAPI/ProxyAPI и перевода JSON. При необходимости, укажи явно формат ответа в функции-парсере и явно создай требуемую модель ответа.<figure class="image" id="22b7cde5-de79-8084-87d0-f2d3226425f4"><img src="https://i.ibb.co/fVXyL6DD/69c070406840.png"></figure></li></ul><ul class="bulleted-list" id="22b7cde5-de79-80d4-a496-d99d38d79e1e"><li style="list-style-type:disc">Убедись, что в <strong>requirements.txt</strong> указаны все зависимости, из которых производится импорт в коде. </li></ul></div></figure><figure class="block-color-gray_background callout" id="22b7cde5-de79-8011-aefb-d1c6418e0717" style="white-space:pre-wrap;display:flex"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%"><p id="22b7cde5-de79-80a1-9f2f-fd0443b04e15">Лишние контейнеры, возникшие в результате ошибок, удобно удалять командой <code>docker rm &lt;название контейнера&gt;</code>. </p><p id="22b7cde5-de79-80a1-b118-fe97cdf83a46">В дальнейшем, если ты захочешь развить этот проект, осуществлять развёртывание лучше на отельном хостинге или, по крайней мере, используя DNS-сервер соответствующих провайдеров. </p></div></figure></div></details><h2 id="22a7cde5-de79-812b-a64a-c0777535fad8">5. Результаты работы</h2></div>	<div class="add-redesign-subblock" data-id="2166747639">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a243413e3e .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder2889430 input[type="radio"]').length == 1 && $('#builder2889430 input[type="radio"]').prop('checked') ) {
+			$('#builder2889430 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3345');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747639', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747639-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165070" id="lite-block-live-wrapper-1752576558-3367" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="2166747640">
+
+<style>
+	#ltBlock2166747640 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747640" data-block-id="2166747640"
+               class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence"
+     data-code="b-12ff9"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<div id="vhi-root-afa89ec5ec4aeaf6c8af636dc85b5f0e"
+	 data-file-id="712909084"
+	 data-user-id="255748303"
+	 data-video-hash="afa89ec5ec4aeaf6c8af636dc85b5f0e"
+	 data-lesson-id="343287840"
+	 data-iframe-src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiYWZhODllYzVlYzRhZWFmNmM4YWY2MzZkYzg1YjVmMGUiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=8481085ff730b57460237da30a2c1bb6&new-design=1"
+	 data-master-play-list-url=""
+	 data-get-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/get?user-id=255748303&video-hash=afa89ec5ec4aeaf6c8af636dc85b5f0e"
+	 data-set-last-seen-time="https://v02.getcourse.ru/api/save-last-seen-time/set?&current-time={seconds}&user-id=255748303&video-hash=afa89ec5ec4aeaf6c8af636dc85b5f0e"
+	 data-save-position-key="afa89ec5ec4aeaf6c8af636dc85b5f0e"
+	 class="vhi-root js--vhi-root"
+	 data-place="new-player">
+			<iframe id="vhplayeriframe-afa89ec5ec4aeaf6c8af636dc85b5f0e"
+				src="https://player02.getcourse.ru/sign-player/?json=eyJ2aWRlb19oYXNoIjoiYWZhODllYzVlYzRhZWFmNmM4YWY2MzZkYzg1YjVmMGUiLCJ1c2VyX2lkIjoyNTU3NDgzMDMsInN1Yl9sb2dpbl91c2VyX2lkIjpudWxsLCJsZXNzb25faWQiOjM0MzI4Nzg0MCwiaXAiOiI3Ny44Mi4xNjUuNTkiLCJnY19ob3N0IjoidW5pdmVyc2l0eS56ZXJvY29kZXIucnUiLCJ0aW1lIjoxNzUyNTc2NTU4LCJwYXlsb2FkIjoidV8yNTU3NDgzMDMiLCJ1aV9sYW5ndWFnZSI6InJ1IiwiaXNfaGF2ZV9jdXN0b21fc3R5bGUiOnRydWV9&s=8481085ff730b57460237da30a2c1bb6&new-design=1"
+				class="vhi-iframe js--vhi-iframe"
+				allow="autoplay; encrypted-media; clipboard-read; clipboard-write;"
+				sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-downloads"
+				allowfullscreen
+				frameborder="0"
+				scrolling="no"
+		></iframe>
+	</div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3367');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747640', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747640-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752165288" id="lite-block-live-wrapper-1752576558-3394" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2166747641">
+
+<style>
+	#ltBlock2166747641 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747641" data-block-id="2166747641"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common"
+     data-code="b-9b567"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			<div
+	id="builder569366"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/text1"
+	data-item-name="text1"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  img70"
+	id="a4c3fb4960"
+>
+	<div style='' class='text-large f-text' data-param='items/parts/text1/inner/text' data-editable='true'><p id="22b7cde5-de79-80e6-8a26-e2943b514a89">В результате работы, в рамках проекта, мы:</p>
+<ul class="bulleted-list" id="22b7cde5-de79-80ed-bd1a-ef7ef3362360"><li style="list-style-type:disc">Развили навыки работы с Cursor и генерации запросов кода для нейросети;</li></ul>
+<ul class="bulleted-list" id="22b7cde5-de79-8073-945c-ceb4383bee92"><li style="list-style-type:disc">Выполнили шаблон для работы с нейросетью, состоящий из трёх отдельных модулей: работы с ProxyAPI, парсера и обработчика запросов;</li></ul>
+<ul class="bulleted-list" id="22b7cde5-de79-80ac-beff-d1797a14a9ae"><li style="list-style-type:disc">Сделали основной файл, реализующий наше приложение на фреймворке Flask, и осуществили его развёртывание на сервере;</li></ul>
+<ul class="bulleted-list" id="22b7cde5-de79-80c3-9d2c-d844f4596a00"><li style="list-style-type:disc">Познакомились с работой в Docker через Docker Hub. </li></ul>
+<details><summary style="font-weight:600;font-size:1.25em;line-height:1.3;margin:0">Напомним, как работать с Cron ↘️</summary><div class="indented"><p id="22b7cde5-de79-8091-bbc0-c700a9a37211">Для работы с планировщиком задач в Cron, открой командную строку и подключись к серверу. Пропиши команду <code>crontab -e</code> и выбери редактор nano. Следуя синтаксису, указанному в комментариях, напиши <strong>* /60 * * * * /root/update.sh</strong> для выполнения скрипта ежечасно. Сохрани файл. </p><figure class="image" id="22b7cde5-de79-8065-b9dd-ccb574e421e9"><img src="https://i.ibb.co/Mr6CB7T/46c8d338e6e5.png"></figure></div></details>
+<h1 id="22a7cde5-de79-813c-bccc-f0d93192da7b">Дополнительные материалы</h1>
+<figure id="22a7cde5-de79-80a9-95fa-fd822ca60e09"><div class="source"><a href="http://Target.zip" target="_blank">Target.zip</a></div></figure>
+</div>	<div class="add-redesign-subblock" data-id="2166747641">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a4c3fb4960 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder569366 input[type="radio"]').length == 1 && $('#builder569366 input[type="radio"]').prop('checked') ) {
+			$('#builder569366 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3394');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747641', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747641-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752147756" id="lite-block-live-wrapper-1752576558-3424" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-anchor o-lt-system-block o-lt-invisible-block" data-block-id="2166747642">
+
+<style>
+	#ltBlock2166747642 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747642" data-block-id="2166747642"
+               class="lt-block lt-view lessonAnchor01 lt-lesson lt-lesson-anchor lt-system-block lt-invisible-block"
+     data-code="b-9d92e"
+          >
+	<div class="lt-block-wrapper">
+	<div class="edit-block btn-settings ">
+						Ссылка на это место страницы:
+			<a
+				class="anchor"
+				data-anchor="dz"
+				name='dz'
+				id='dz'
+				href="#dz"
+			>
+				#dz			</a>
+			</div>
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3424');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747642', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747642-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752147831" id="lite-block-live-wrapper-1752576558-3466" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common o-accent_block" data-block-id="2166747643">
+
+<style>
+	#ltBlock2166747643 .lt-block-wrapper {
+		padding-top: 45px; padding-bottom: 45px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747643" data-block-id="2166747643"
+               class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common accent_block"
+     data-code="b-90db0"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-10 col-md-offset-1 text-left" style="">
+			<div
+	id="builder2179659"
+	class="builder  animated-block"
+	data-path="items"
+	data-animation-order="in-turn">
+	
+			<div
+	data-param="items/parts/field96364"
+	data-item-name="field96364"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-header  text-center"
+	id="a62538a484"
+>
+	<div data-editable=true data-param='items/parts/field96364/inner/text' class='f-header f-header-36'><p>Домашнее задание</p></div>	<div class="add-redesign-subblock" data-id="2166747643">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a62538a484 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="items/parts/field33391"
+	data-item-name="field33391"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 0px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text  text-left"
+	id="ad343f11b6"
+>
+	<div style='' class='text-normal f-text' data-param='items/parts/field33391/inner/text' data-editable='true'>
+<p id="22c7cde5-de79-8076-ae77-e54d9e077569"><strong>Используй рандомайзер для выбора своего проекта.</strong> </p>
+<ul class="bulleted-list" id="22c7cde5-de79-8050-8345-c9e8fd6d6c0e"><li style="list-style-type:disc">Нажми кнопку <strong>«Получить проект»</strong>, чтобы случайным образом получить задание.</li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-8018-b27d-caa533f4f700"><li style="list-style-type:disc">Нажми на кнопку&nbsp;<strong>«История»</strong>, чтобы посмотреть весь список проектов.</li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-808f-bfc5-fdb89c12a774"><li style="list-style-type:disc">Изучи описания и выбери тот, который вдохновляет тебя больше всего.</li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-80f9-bb14-cf8575a5e52a"><li style="list-style-type:disc">Нажми кнопку&nbsp;<strong>«Сохранить»</strong>, чтобы закрепить выбор.</li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-80a9-ac0f-d6d6bb0267d6"><li style="list-style-type:disc">Если передумал(-а) — просто нажми&nbsp;<strong>«Поменять»</strong>, чтобы выбрать другой проект.</li></ul>
+
+<p id="22c7cde5-de79-802b-a8f0-cb9d472abbb8"><strong>Формат сдачи:</strong></p>
+<ul class="bulleted-list" id="22c7cde5-de79-8065-aa78-e39ffeddedf4"><li style="list-style-type:disc">Прикрепи ссылку на репозиторий или файлы проекта. </li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-800a-b2fe-cfd9dc538187"><li style="list-style-type:disc">Для демонстрации работоспособности также прикрепи скриншоты, видео работы проекта или ссылку на работающий проект. </li></ul>
+<ul class="bulleted-list" id="22c7cde5-de79-8008-a956-fbb202590f28"><li style="list-style-type:disc">Добавь краткое описание какой проект ты выполнил и как проходил процесс создания.</li></ul>
+<p id="22c7cde5-de79-80b7-8562-f862c8bc0841">
+</p></div>	<div class="add-redesign-subblock" data-id="2166747643">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#ad343f11b6 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder2179659 input[type="radio"]').length == 1 && $('#builder2179659 input[type="radio"]').prop('checked') ) {
+			$('#builder2179659 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3466');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747643', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747643-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752198453" id="lite-block-live-wrapper-1752576558-3537" class="lite-block-live-wrapper o-lt-raw o-lt-raw-html" data-block-id="2169220134">
+	<style>
+		#ltBlock2169220134 /* ——————————————————————————————————————————
+   Рандомайзер итогового проекта  –  СТИЛИ
+   —————————————————————————————————————————— */
+
+/* Карточка */                          /* ───────────────────────────── */
+.rcard {
+  max-width: 720px;
+  margin: 32px auto;
+  padding: 24px;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .07);
+} 
+#ltBlock2169220134 
+
+.rcard h3 { 
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+} 
+#ltBlock2169220134 
+
+/* Блок результата */                   /* ───────────────────────────── */
+.result { 
+  min-height: 72px;
+  margin: 0 auto 16px;
+  padding: 0 16px;
+  text-align: left;
+  line-height: 1.5;
+} 
+#ltBlock2169220134 
+
+.result .placeholder { 
+  display: block;
+  text-align: center;
+} 
+#ltBlock2169220134 
+
+.proj-title { 
+  display: block;
+  text-align: center;
+  font-size: 28px;        /* КРУПНЕЕ */
+  font-weight: 700;
+  margin-bottom: 8px;
+} 
+#ltBlock2169220134 
+
+.result strong { 
+  font-weight: 600;
+  text-align: left;
+  font-size: inherit;
+} 
+#ltBlock2169220134 
+
+/* Основные кнопки */                    /* ───────────────────────────── */
+.roll { 
+  padding: 11px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .2s;
+  background: #0d6efd;
+  color: #fff;
+} 
+#ltBlock2169220134 
+
+.roll:not(:disabled):hover { 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
+} 
+#ltBlock2169220134 
+
+.roll:disabled { 
+  background: #999;
+  cursor: not-allowed;
+} 
+#ltBlock2169220134 
+
+/* Подсказка */                          /* ───────────────────────────── */
+.hint { 
+  display: block;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+} 
+#ltBlock2169220134 
+
+/* История */                            /* ───────────────────────────── */
+#history-list { 
+  text-align: left;
+} 
+#ltBlock2169220134 
+
+.history-item { 
+  position: relative;
+  padding-bottom: 48px;  /* место под кнопку внизу */
+} 
+#ltBlock2169220134 
+
+/* Кнопка «Выбрать» */                   /* ───────────────────────────── */
+.select-btn { 
+  position: absolute;
+  right: 0;
+  bottom: 0;              /* фиксируем в правом НИЖНЕМ углу */
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+} 
+#ltBlock2169220134 
+
+.select-btn:hover { 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
+} 
+#ltBlock2169220134 
+
+.select-btn:disabled { 
+  background: #999;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+} 
+#ltBlock2169220134 
+
+/* Разделитель между карточками истории */
+.history-sep { 
+  margin: 24px 0;
+  border: 0;
+  border-top: 1px dashed #ccc;
+} 
+#ltBlock2169220134 
+/* фиксируем размер / выравнивание именно для заголовка проекта */
+.result .proj-title { 
+  font-size: 28px !important;   /* крупный */
+  font-weight: 700;
+  text-align: center;
+}
+	</style>
+
+<style>
+	#ltBlock2169220134 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2169220134" data-block-id="2169220134"
+     data-has-css="true"     data-has-limited-visibility="true"     class="lt-block lt-view raw-html lt-raw lt-raw-html"
+     data-code="b-ededc"
+          >
+	<div class="lt-block-wrapper">
+	<div id="rawHtml7772204" data-raw-editable="true" data-param="rawValue" data-mode="text/html">
+			<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Рандомайзер итогового проекта Zerocoder</title>
+<style>
+  .rcard { background: #f9f9f9; padding: 20px; border-radius: 8px; max-width: 600px; margin: auto; text-align: center; }
+  .roll { padding: 10px 20px; margin-top: 10px; cursor: pointer; }
+  .result { margin: 20px 0; min-height: 60px; text-align: left; white-space: pre-wrap; }
+  .hint { display: block; margin-top: 10px; color: #555; }
+  .history-item { margin-bottom: 12px; text-align: left; white-space: pre-wrap; }
+  .history-sep { margin: 12px 0; }
+</style>
+</head>
+<body>
+
+<!-- === Рандомайзер итогового проекта (3 попытки | история | сохранить) === -->
+<div id="project-randomizer" class="rcard">
+  <h3>Ваш итоговый проект</h3>
+  <div id="project-result" class="result">
+    <span class="placeholder">Нажмите кнопку, чтобы получить проект</span>
+  </div>
+  <button id="roll-btn" class="roll">Получить проект</button>
+  <button id="history-btn" class="roll" style="margin-left:12px;" disabled>История</button>
+  <button id="save-btn" class="roll" style="margin-left:12px;" disabled>Сохранить</button>
+  <small id="tries-left" class="hint">Осталось попыток: 3</small>
+  <div id="history-wrap" style="display:none;margin-top:24px;">
+    <h4 style="text-align:center;margin-bottom:12px;">Ранее выбранные проекты</h4>
+    <div id="history-list"></div>
+  </div>
+</div>
+
+<script>
+const LESSON_ID = 'vibe-code-vp';
+const MAX_ATTEMPTS = 10;
+const SAVE_ENDPOINT='https://university.zerocoder.ru/chtm/app/builder/event/~reg/ePH49KvB1hc7EeDrt5Y025682/2b5v996vim?hash=jj3lKRm94U';
+const USE_GET = false;
+const USER_ID = '255748303';
+
+(() => {
+  const PREFIX = `gc_project_${LESSON_ID}_`;
+  const ATTEMPT_KEY = PREFIX + 'attempts';
+  const CHOICE_KEY = PREFIX + 'choice';
+  const HISTORY_KEY = PREFIX + 'history';
+  const USED_KEY = PREFIX + 'used';
+  const SAVED_KEY = PREFIX + 'saved';
+
+  const btnRoll = document.getElementById('roll-btn');
+  const btnHist = document.getElementById('history-btn');
+  const btnSave = document.getElementById('save-btn');
+  const resultBox = document.getElementById('project-result');
+  const hint = document.getElementById('tries-left');
+  const histWrap = document.getElementById('history-wrap');
+  const histList = document.getElementById('history-list');
+
+  const projects = [
+    {
+      title: '🧠 1. Агент: Генератор SEO-заголовков для блога',
+      desc: ` 🎯 Цель
+
+Создать агента, который на основе статьи по URL генерирует 5 цепляющих SEO-заголовков.
+
+⚙️ Логика работы
+
+1. Загружает HTML по ссылке, извлекает текст с помощью BeautifulSoup.
+2. Создаёт системный промпт: «Ты SEO-редактор. Придумай 5 заголовков…»
+3. Отправляет текст статьи в LLM с этим промптом.
+4. Возвращает массив из 5 заголовков.
+
+✅ Функциональные требования
+- Агент вызывается функцией с аргументом url.
+- Используется модель OpenAI (gpt-4o или gpt-3.5-turbo).
+- Промпт передаётся как system, текст статьи — как user.
+- Результат — список из 5 заголовков.
+- Повторы при сбоях до 3 раз.
+
+🛡 Нефункциональные требования
+- PEP8 + типизация (mypy).
+- Зависимости: openai, requests, beautifulsoup4, dotenv, tenacity.
+- Python ≥ 3.10.
+- Ключ OpenAI хранится в .env.
+
+📁 Структура проекта
+project/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+🧪 Приёмка
+- Команда python agent.py <url> возвращает список заголовков.
+- Ошибки обрабатываются корректно.
+- Результат логично соотносится с содержанием статьи.`
+    },
+    {
+      title: '🧠 2. Агент: Составитель плана видео',
+      desc: `### 🎯 Цель
+
+Создать агента, который по тексту веб-страницы составляет структуру видео (титры, блоки, тезисы).
+
+⚙️ Логика работы
+
+1. Загружает текст по URL.
+2. Генерирует системный промпт: «Ты видеоредактор. Составь план видео по статье…»
+3. Отдаёт контент модели.
+4. Возвращает список блоков: вступление, темы, финал.
+
+✅ Функциональные требования
+- Вход: url.
+- Выход: список блоков (словари с подзаголовками и краткими описаниями).
+- Используется модель OpenAI.
+- Повторы при сбоях — до 3 раз.
+
+🛡 Нефункциональные требования
+- Чистый код с типами.
+- Python ≥ 3.10.
+- API-ключ через .env.
+- Использование openai, requests, beautifulsoup4, tenacity, dotenv.
+
+📁 Структура проекта
+video_planner/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+🧪 Приёмка
+- Команда python agent.py <url> возвращает валидную структуру видео.
+- Описание блоков логично.
+- Ошибки обрабатываются корректно.`
+    },
+   {
+      title: '🧠 3. Агент: UX-рецензент сайта',
+      desc: ` 🎯 Цель
+
+Создать агента, который анализирует текст сайта и генерирует UX-отчёт с 5 рекомендациями по улучшению.
+
+⚙️ Логика работы
+
+1\. Загружает HTML по ссылке.  
+2\. Извлекает текст и формирует промпт UX-эксперта.  
+3\. Отправляет текст в модель с системной ролью.  
+4\. Получает отчёт: достоинства, слабые места и 5 предложений по улучшению UX.
+
+✅ Функциональные требования
+
+\- Агент вызывается через функцию \`run(url)\`.  
+\- Используется \`gpt-4o\` или \`gpt-3.5-turbo\`.  
+\- Возвращает структуру: плюсы, минусы, рекомендации.  
+\- Обработка ошибок API + повторы до 3 раз.
+
+ 🛡 Нефункциональные требования
+
+\- Python ≥ 3.10.  
+\- Чистый, типизированный код.  
+\- Зависимости: \`openai\`, \`requests\`, \`beautifulsoup4\`, \`dotenv\`, \`tenacity\`.
+
+ 📁 Структура проекта
+
+ux_reviewer/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+ 🧪 Приёмка
+
+\- Команда \`python agent.py <url>\` возвращает отчёт с рекомендациями.  
+\- Ответ обоснован и релевантен содержимому сайта.  
+\- Поведение при сбоях корректное.
+
+`
+    },
+    {
+      title: '🧠 4. Агент: Классификатор типа контента',
+      desc: ` 🎯 Цель
+
+Создать агента, который определяет тип сайта (лендинг, блог, маркетплейс и т.д.) на основе текста страницы.
+
+⚙️ Логика работы
+
+1\. Получает HTML, извлекает текст.  
+2\. Отправляет текст модели с системной ролью: «Классифицируй сайт…»  
+3\. Возвращает: тип сайта + краткое объяснение.
+
+ ✅ Функциональные требования
+
+\- Вход: URL.  
+\- Выход: словарь с ключами \`type\` и \`reason\`.  
+\- Используется OpenAI API.  
+\- Обработка исключений и повторов.
+
+ 🛡 Нефункциональные требования
+
+\- Код читаемый и типизирован.  
+\- Python ≥ 3.10.  
+\- Зависимости как в предыдущих задачах.
+
+ 📁 Структура проекта
+
+site_classifier/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+ 🧪 Приёмка
+
+\- Агент корректно определяет тип сайта.  
+\- Объяснение понятно.  
+\- Ошибки API обрабатываются корректно.
+
+`
+    },
+    {
+      title: '🧠 5. Агент: Автор e-mail рассылки',
+      desc: ` 🎯 Цель
+
+Создать агента, который по содержанию статьи составляет email-рассылку с призывом к действию.
+
+ ⚙️ Логика работы
+
+1\. Извлекает текст по URL.  
+2\. Промпт: «Создай email-рассылку по статье (приветствие, тело, CTA)…»  
+3\. Отдаёт текст в модель.  
+4\. Получает письмо в виде строки.
+
+ ✅ Функциональные требования
+
+\- Запуск: \`run(url)\`.  
+\- Результат: текст email.  
+\- Используется OpenAI API.  
+\- Повторы и обработка ошибок.
+
+ 🛡 Нефункциональные требования
+
+\- Типизированный и читаемый код.  
+\- Python ≥ 3.10.  
+\- Стандартный стек зависимостей.
+
+ 📁 Структура проекта
+
+email_writer/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+ 🧪 Приёмка
+
+\- Возвращается email на основе статьи.  
+\- Текст логичен и пригоден для рассылки.  
+\- Нет дублирования или мусора.
+
+`
+    },
+    {
+      title: '🧠 6. Агент: Генератор пользовательских вопросов',
+      desc: ` 🎯 Цель
+
+Создать агента, который по содержанию сайта формирует 5 логичных вопросов, которые могли бы задать пользователи.
+
+ ⚙️ Логика работы
+
+1\. Загружает HTML по ссылке, извлекает текст.  
+2\. Промпт: «Ты пользователь. Какие вопросы у тебя возникли после прочтения?»  
+3\. Отдаёт текст в модель.  
+4\. Возвращает список из 5 вопросов.
+
+ ✅ Функциональные требования
+
+\- Запуск: \`run(url)\`.  
+\- Возврат: список строк-вопросов.  
+\- Модель: OpenAI (\`gpt-4o\` или \`gpt-3.5-turbo\`).  
+\- Обработка ошибок и повторы при сбоях.
+
+ 🛡 Нефункциональные требования
+
+\- Python ≥ 3.10, с типизацией и стилем по PEP8.  
+\- Зависимости стандартные: \`openai\`, \`requests\`, \`beautifulsoup4\`, \`tenacity\`, \`dotenv\`.
+
+ 📁 Структура проекта
+
+user_questions/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+🧪 Приёмка
+
+\- Команда \`python agent.py <url>\` возвращает 5 содержательных вопросов.  
+\- Вопросы связаны с темой страницы.  
+\- Поведение при ошибках корректное.
+`
+    },
+    {
+      title: '🧠 7. Агент: Подбор названия для продукта',
+      desc: `🎯 Цель
+
+Создать агента, который по описанию продукта (из статьи на сайте) предлагает 5 вариантов названия.
+
+ ⚙️ Логика работы
+
+1\. Загружает HTML по URL, извлекает описание.  
+2\. Промпт: «Ты креативный маркетолог. Предложи 5 вариантов названия для продукта.»  
+3\. Модель возвращает 5 названий и краткое объяснение каждого.
+
+✅ Функциональные требования
+
+\- Вход: URL.  
+\- Выход: список из 5 словарей (\`name\` + \`reason\`).  
+\- Используется модель OpenAI.  
+\- Повторы и лог ошибок реализованы.
+
+🛡 Нефункциональные требования
+
+\- Поддержка Python ≥ 3.10, чистый код, типы.  
+\- Использование \`.env\` для ключей.  
+\- Библиотеки: \`openai\`, \`requests\`, \`bs4\`, \`tenacity\`, \`dotenv\`.
+
+ 📁 Структура проекта
+
+product_namer/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+ 🧪 Приёмка
+
+\- Выводятся 5 уникальных и уместных названий.  
+\- К каждому — пояснение.  
+\- Работа агента устойчива к сбоям.
+`
+    },
+        {
+      title: '🧠 8. Агент: Генерация постов для соцсетей',
+      desc: ` 🎯 Цель
+
+Создать агента, который по тексту сайта генерирует короткий пост в заданном стиле (например, иронично).
+
+⚙️ Логика работы
+
+1\. Загружает HTML, извлекает текст.  
+2\. Промпт: «Ты автор постов в соцсетях. Напиши ироничный пост по этой теме.»  
+3\. Модель возвращает 1 короткий пост.
+
+✅ Функциональные требования
+
+\- Аргументы: \`url\` + опционально \`style\` (по умолчанию — «ироничный»).  
+\- Результат: строка длиной до 800 символов.  
+\- Используется OpenAI API.  
+\- Обработка исключений.
+
+🛡 Нефункциональные требования
+
+\- Стандартные библиотеки и подходы.  
+\- Python ≥ 3.10.  
+\- Безопасное хранение ключей.
+
+📁 Структура проекта
+
+social_post_generator/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+🧪 Приёмка
+
+\- Пост соответствует содержанию страницы и стилю.  
+\- Легко читаем и пригоден для публикации.  
+\- Ошибки не приводят к сбоям.
+
+`
+    },
+    {
+      title: '🧠 9. Агент: Краткое резюме страницы',
+      desc: `🎯 Цель
+
+Создать агента, который формирует краткое резюме содержания сайта (3–5 предложений).
+
+⚙️ Логика работы
+
+1\. Загружает текст по URL.  
+2\. Промпт: «Ты аналитик. Сформулируй суть текста в 3–5 предложениях.»  
+3\. Возвращает сжатое резюме.
+
+✅ Функциональные требования
+
+\- Вход: URL.  
+\- Выход: строка с 3–5 предложениями.  
+\- Модель: \`gpt-4o\` или \`gpt-3.5-turbo\`.  
+\- Повторы и лог ошибок реализованы.
+
+🛡 Нефункциональные требования
+
+\- Код читаемый, с типами.  
+\- Python ≥ 3.10.  
+\- Безопасная работа с ключами.
+
+📁 Структура проекта
+
+page_summarizer/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+ 🧪 Приёмка
+
+\- Резюме отражает ключевые мысли.  
+\- Вывод не превышает 5 предложений.  
+\- Ошибки обрабатываются корректно.
+`
+    },
+    {
+      title: '🧠 10. Агент: Подсказки по редизайну лендинга',
+      desc: ` 🎯 Цель
+
+Создать агента, который по содержанию лендинга предлагает рекомендации по улучшению структуры и визуальной подачи.
+
+⚙️ Логика работы
+
+1\. Загружает HTML по ссылке, извлекает текст.  
+2\. Промпт: «Ты UI-дизайнер. Дай советы по улучшению структуры и дизайна этого лендинга.»  
+3\. Модель возвращает список из 5 предложений.
+
+✅ Функциональные требования
+
+\- Вход: URL.  
+\- Выход: список из 5 строк.  
+\- Используется модель OpenAI.  
+\- Обработка сбоев и логирование.
+
+🛡 Нефункциональные требования
+
+\- Python ≥ 3.10, с типами и PEP8.  
+\- Хранение ключей — через \`.env\`.  
+\- Используются \`openai\`, \`bs4\`, \`requests\`, \`tenacity\`, \`dotenv\`.
+
+ 📁 Структура проекта
+
+landing_redesign_assistant/
+├── agent.py
+├── openai_module.py
+├── requirements.txt
+└── README.md
+
+🧪 Приёмка
+
+\- Предложения конструктивны и обоснованы.  
+\- Все рекомендации соответствуют содержанию страницы.  
+\- Работа устойчива к сбоям.
+`
+  }
+    /* — добавьте остальные проекты до 30 — */
+  ];
+
+  /* 4. Состояние */
+  let attempts = Number(localStorage.getItem(ATTEMPT_KEY)) || 0;
+  let history  = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+  let used     = JSON.parse(localStorage.getItem(USED_KEY)    || '[]');
+  const savedChoice = localStorage.getItem(CHOICE_KEY);
+  const alreadySaved = localStorage.getItem(SAVED_KEY) === '1';
+
+  if (savedChoice) resultBox.innerHTML = savedChoice;
+  btnSave.disabled = !savedChoice || alreadySaved;
+  if (alreadySaved) btnSave.textContent = '✓ Сохранено';
+
+  renderHistory();
+  updateUI();
+
+  /* 5. Получить / Поменять */
+  btnRoll.addEventListener('click', () => {
+    if (attempts >= MAX_ATTEMPTS) return;
+
+    const available = projects
+      .map((p,i)=>({...p, idx:i}))
+      .filter(p => !used.includes(p.idx));
+
+    if (!available.length) return;
+
+    const pick = available[Math.floor(Math.random()*available.length)];
+    const html = formatProject(pick);
+
+    resultBox.innerHTML = html;
+    btnSave.disabled = false;
+    btnSave.textContent = 'Сохранить';
+    localStorage.removeItem(SAVED_KEY);          // сбросили метку
+
+    used.push(pick.idx);
+    history.push(html);
+
+    localStorage.setItem(CHOICE_KEY,  html);
+    localStorage.setItem(USED_KEY,    JSON.stringify(used));
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+    localStorage.setItem(ATTEMPT_KEY, ++attempts);
+
+    renderHistory();
+    updateUI();
+  });
+
+  /* 6. История */
+  btnHist.addEventListener('click', () => {
+    histWrap.style.display = histWrap.style.display === 'none' ? 'block' : 'none';
+  });
+
+  /* 7. Сохранить */
+  btnSave.addEventListener('click', async () => {
+    if (btnSave.disabled) return;
+    const title = resultBox.querySelector('.proj-title')?.textContent || '';
+    if (!title) return;
+
+    const desc = resultBox.innerText.replace(title,'').trim();
+
+    const payload = {
+      lesson_id     : LESSON_ID,
+      user_id       : USER_ID,
+      project_title : title,
+      project_desc  : desc,
+      attempts_left : MAX_ATTEMPTS - attempts,
+      timestamp     : new Date().toISOString()
+    };
+
+    try {
+      if (USE_GET) {
+        const qs = new URLSearchParams(payload).toString();
+        await fetch(`${SAVE_ENDPOINT}?${qs}`, { mode:'cors' });
+      } else {
+        await fetch(SAVE_ENDPOINT, {
+          method  : 'POST',
+          mode    : 'cors',
+          headers : { 'Content-Type':'application/json' },
+          body    : JSON.stringify(payload)
+        });
+      }
+      btnSave.textContent = '✓ Сохранено';
+      btnSave.disabled = true;
+      localStorage.setItem(SAVED_KEY, '1');     // пометили «уже отправлено»
+    } catch (err) {
+      console.error(err);
+      btnSave.textContent = 'Ошибка';
+    }
+  });
+
+  /* 8. Вспомогательные функции */
+  function updateUI(){
+    const left = MAX_ATTEMPTS - attempts;
+    hint.textContent   = left>0 ? `Осталось попыток: ${left}` : 'Попытки закончились.';
+    btnRoll.disabled   = left===0;
+    btnRoll.textContent= attempts===0 ? 'Получить проект' : 'Поменять';
+    btnHist.disabled   = history.length===0;
+  }
+
+  function renderHistory(){
+    histList.innerHTML = history.map((item,i)=>`
+      <div class="history-item">
+        <div style="font-weight:500;margin-bottom:8px;">#${i+1}</div>
+        ${item}
+        <button class="select-btn" data-idx="${i}">Выбрать</button>
+      </div>`
+    ).join('<hr class="history-sep">');
+
+    document.querySelectorAll('.select-btn').forEach(btn=>{
+      btn.addEventListener('click',e=>{
+        const idx  = +e.currentTarget.dataset.idx;
+        const html = history[idx];
+        resultBox.innerHTML = html;
+
+        btnSave.disabled = false;
+        btnSave.textContent = 'Сохранить';
+        localStorage.removeItem(SAVED_KEY);     // сбросили флаг
+
+        localStorage.setItem(CHOICE_KEY, html);
+      });
+    });
+  }
+
+  function formatProject(p){
+    return `<strong class="proj-title">${p.title}</strong><br>` +
+           p.desc.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>');
+  }
+})();
+</script>
+		</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3537');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2169220134', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2169220134-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752160203" id="lite-block-live-wrapper-1752576558-3552" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="2169220199"></div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3552');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2169220199', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2169220199-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1751010530" id="lite-block-live-wrapper-1752576558-3661" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-feedback-block" data-block-id="2166747627">
+
+<style>
+	#ltBlock2166747627 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747627" data-block-id="2166747627"
+               class="lt-block lt-view lesson-feedback-block-1 lt-lesson lt-lesson-feedback-block"
+     data-code="ltBlock2166747627"
+          >
+	<div class="lt-block-wrapper">
+		<script type="text/javascript">
+		$(function () {
+			setTimeout(function() {
+				$('.lt-lesson-feedback-block').parents('.lite-block').hide();
+			}, 100);
+		});
+	</script>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3661');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747627', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747627-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752148346" id="lite-block-live-wrapper-1752576558-3888" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="2166747644">
+
+<style>
+	#ltBlock2166747644 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747644" data-block-id="2166747644"
+               class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block"
+     data-code="ltBlock2166747644"
+          >
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div class="mission-deadline-removable-block-343287840-255748303"
+	>
+	<h3>
+		Задание			</h3>
+		<div class="lesson-mission-wrapper">
+					<div style="padding: 20px 20px; font-size: 16px" class="lesson-mission-text">
+				<p id="22c7cde5-de79-8076-ae77-e54d9e077569">Пока ты ждешь проверку задания, напиши нам свой отзыв о курсе по ссылке - https://university.zerocoder.ru/reviews-vibe-code</p>
+<p id="22c7cde5-de79-80b7-8562-f862c8bc0841">
+</p>			</div>
+		
+		<div class="self-answers">
+											</div>
+
+																		<div class="lesson-send-answer-block">
+						<form id="lessonAnswerForm" action="#lessonAnswerForm" method="post"><script>console.log("redirect : none")</script>
+<script>console.log("action : #lessonAnswerForm")</script>
+<script>console.log("webview : false")</script>
+
+<div class="answer-form">
+    <div style="float: left; margin-right: 10px"><img class="user-profile-image user-default-profile-image" src="/public/img/default_profile_50.png" width="50" alt=""></div>
+    <div class="answer-form-inner">
+		<div style="margin-left: 0; overflow: hidden">
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<textarea id="LessonAnswer_answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="Ваш ответ"></textarea>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="343287840">
+
+<div class="help-block"></div>
+</div>				</div>
+						
+											<div class="addfield addfield-type-file_list">
+					
+					<label for='LessonAnswer_addfields_38577'>
+																	</label>
+
+											<div>
+							<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<input id="file_upload14918" name="file_upload" type="file" multiple="true">
+	<input class='LessonAnswer-addfields--38577--add-file' name="LessonAnswer[addfields][38577][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+		$(function() {
+		var uploadOptions = {
+			auto: true,
+			width: 170,
+			buttonText: "Добавить файлы",
+			fileSizeLimit: "100MB",
+			multi: true,
+			formData     : {
+				timestamp : '1752576558',
+				userId: '255748303',
+				token     : 'd1e76bd58852ba3a442ae73205d163a5',
+				context   : ''
+			},
+			uploadScript : '/fileservice/widget/upload?deprecated=20'
+				+ '&secure=' + window.isEnabledSecureUpload
+				+ '&host=' + window.fileserviceUploadHost,
+			onUploadError: function( file, errorCode, errorMsg ) {
+				alert("ERROR");
+			},
+			onUploadComplete: function( e,res  ) {
+				$hiddenInputEl = $( '.LessonAnswer-addfields--38577--add-file' );
+				oldVal = $hiddenInputEl.val();
+				newVal = oldVal;
+				if ( newVal.length > 0 ) {
+					newVal += ",";
+				}
+				newVal += res;
+				e.res = res;
+
+				$hiddenInputEl.val( newVal );
+			},
+			onCancel: function( e ) {
+
+				$hiddenInputEl = $( '.LessonAnswer-addfields--38577--add-file' );
+				oldVal = $hiddenInputEl.val();
+				newVal = oldVal;
+				newVal = newVal.replace(e.res, "");
+
+				$hiddenInputEl.val( newVal );
+			}
+		};
+
+		if (window.isEnabledSecureUpload && window.fileserviceUploadHost) {
+			uploadOptions.onUpload = getUploadifySecretLink;
+		}
+
+		$('#file_upload14918').uploadifive(uploadOptions);
+	});
+</script>
+						</div>
+					
+				</div>
+			
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+
+			
+			
+							<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">
+					Отправить ответ				</button>
+				<button name="send-answer"
+						class="btn btn-link btn-save-draft ">
+					Сохранить черновик				</button>
+			
+							<div class="small" style="margin-top:10px;">
+					20 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</form></div>
+
+<script>
+	function setElementEvents() {
+		if (!window.readyStatusSet) {
+			window.readyStatusSet = true;
+			$('.answer-form textarea').autosize();
+			$('#lessonAnswerForm').submit(function () {
+				$('.send-answer-value').attr('name', 'send-answer');
+				$('.btn-send-answer, .btn-save-draft').attr('disabled', 'disabled');
+				return true;
+			});
+
+			$('.btn-save-draft').on("click", function () {
+				let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+
+				$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+		}
+	}
+	$(function () {
+		setElementEvents();
+	})
+
+	function checkReady() {
+		setElementEvents()
+	}
+
+	window.setTimeout(checkReady, 2000);
+</script>
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+
+	.addfield-type-goal-form .error-summary {
+		display: none;
+	}
+</style>
+					</div>
+							
+					
+			</div>
+</div>
+
+
+
+<div class="mission-deadline-block mission-deadline-block-343287840-255748303">
+	<div class="mission-deadline-execution" style="display: none">
+		<p><span class="mission-deadline-timer"></span>.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3888');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747644', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747644-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752148346" id="lite-block-live-wrapper-1752576558-3927" class="lite-block-live-wrapper o-lt-raw o-lt-raw-js o-lt-system-block o-lt-invisible-block" data-block-id="2166747645">
+
+<style>
+	#ltBlock2166747645 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747645" data-block-id="2166747645"
+               class="lt-block lt-view raw-js lt-raw lt-raw-js lt-system-block lt-invisible-block"
+     data-code="b-b5eb5"
+          >
+	<div class="lt-block-wrapper">
+	
+	<script language="javascript" id="rawJs7394662">
+		document.addEventListener("DOMContentLoaded", function() {
+  var feedbackElement = document.querySelector('.feedback');
+  
+  if (feedbackElement) {
+    var storedValue = localStorage.getItem('vibe-codeVCd03');
+    
+    if (storedValue === 'да') {
+      feedbackElement.style.display = 'none';
+    }
+  }
+});	</script>
+
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-3927');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747645', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747645-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752148346" id="lite-block-live-wrapper-1752576558-4703" class="lite-block-live-wrapper o-lt-form o-lt-form-normal o-feedback" data-block-id="2166747646">
+	<style>
+		#ltBlock2166747646 
+
+.f-input {
+	border-radius: 9px
+} 
+#ltBlock2166747646 
+
+
+.f-btn { 
+	background: #fe3802;
+background: #4bd58f;  
+		color: #fff; 
+	border-radius:10px!important; 
+	padding: 20px 60px; 
+	font-size: 18px;
+} 
+#ltBlock2166747646 
+
+.field-input-block label:nth-child(4) { 
+	display:none;
+}
+
+	</style>
+
+<style>
+	#ltBlock2166747646 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747646" data-block-id="2166747646"
+     data-has-css="true"          class="lt-block lt-view form02 lt-form lt-form-normal feedback"
+     data-code="b-3b213"
+          >
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form
+	id="ltForm8724711"
+	class="
+		lt-normal-form
+		lt-form-inner
+		lt-form
+							"
+	data-id = 2166747646	action="https://university.zerocoder.ru/pl/lite/block-public/process?id=2166747646"
+	method="post"
+	data-open-new-window="0"
+	>
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+			<input type="hidden" name="formParams[willCreatePaidDeal]" value="0">
+			
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		<div
+	id="builder255255"
+	class="builder "
+	data-path="form/items"
+	>
+	
+			<div
+	data-param="form/items/parts/field69347"
+	data-item-name="field69347"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-text "
+	id="a31f6d1f83"
+>
+	<div style='' class='text-normal f-text' data-param='form/items/parts/field69347/inner/text' data-editable='true'><p>Если у вас есть вопросы, задавайте их, пожалуйста, в учебном чате, а не в этой анкете, — так вы сможете быстрее получить ответ.&nbsp;&nbsp;</p></div>	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a31f6d1f83 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/emailField"
+	data-item-name="emailField"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField "
+	id="aa72194558"
+>
+	<div id="fieldStandard8676134" data-hide-filled="1"
+	class="hidden">
+	
+	<div class="field-content" >
+		
+				<input type="text" maxlength="60" class="f-input" placeholder="Введите ваш эл. адрес" name="formParams[email]" value="Kerrymess@gmail.com" readonly="readonly">
+		</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#aa72194558 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/nameField"
+	data-item-name="nameField"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField "
+	id="a5f1a52102"
+>
+	<div id="fieldStandard7391501" data-hide-filled="1"
+	class="hidden">
+	
+	<div class="field-content" >
+		
+				<input type="text" maxlength="60" class="f-input" placeholder="Введите ваше имя" name="formParams[full_name]" value="Eduard">
+		</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a5f1a52102 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/phoneField"
+	data-item-name="phoneField"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField "
+	id="a3f07bc68d"
+>
+	<div id="fieldStandard5024442" data-hide-filled="1"
+	class="hidden">
+	
+	<div class="field-content" >
+		
+			    <input type="text" class="f-input" name="formParams[phone]" value="+79950591159" maxlength="60" placeholder="Введите ваш телефон">    	</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a3f07bc68d .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/field45576"
+	data-item-name="field45576"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField "
+	id="a74e37acd5"
+>
+	<div id="fieldStandard1347642" data-hide-filled="1"
+	>
+	
+	<div class="field-content" >
+		
+					<div id="fieldWidget8427848" class="f-input-wrapper">
+								
+				<div class="custom-field-input"></div>
+
+				<input name="formParams[userCustomFields][1857756]" class="custom-field-value" type="hidden" >
+
+				<script>
+					$( function() {
+						var field = {"id":1857756,"label":"lesson","type":"string","required":false,"settings":{"size":50,"table_title":"","is_important":false,"placeholder":""},"description":"","html_block":"","html_block_position":"","show_in_table":false,"hide_filled":false,"hide":"2"};
+						if (field.type === 'checkbox') {
+							field.id += '--' + Math.floor(Math.random() * 10000);
+						}
+						field.label = "\u0423\u0440\u043e\u043a";
+						field.settings.placeholder = "";
+						var fieldOptions = null
+						var $el = $('#fieldWidget8427848')
+						var $fieldEl = $el.find('.custom-field-input');
+						window.initCustomFormFieldEl( field, $fieldEl, fieldOptions );
+
+						var setValueToInput = function() {
+                            if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                                var value = $fieldEl[$fieldEl.data('widgetClass')]('getValue');
+                                $el.find('.custom-field-value').val(JSON.stringify(value));
+                            }
+						};
+
+						$fieldEl.on( 'change', function() {
+							setValueToInput();
+						}) ;
+												setValueToInput();
+                        if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                            $fieldEl[$fieldEl.data('widgetClass')]('setInputClass', 'f-input');
+                        }
+					} );
+				</script>
+			</div>
+	</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a74e37acd5 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/field65721"
+	data-item-name="field65721"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField  text-left"
+	id="aeddf7a024"
+>
+	<div id="fieldStandard6597594" data-hide-filled="0"
+	>
+	
+	<div class="field-content" >
+		
+					<div id="fieldWidget9712812" class="f-input-wrapper">
+								
+				<div class="custom-field-input"></div>
+
+				<input name="formParams[userCustomFields][1857758]" class="custom-field-value" type="hidden" >
+
+				<script>
+					$( function() {
+						var field = {"id":1857758,"label":"lesson_ball","type":"select","required":false,"settings":{"valueList":"\u041f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f, \u0432\u0441\u0435 \u0431\u044b\u043b\u043e \u043f\u043e\u043d\u044f\u0442\u043d\u043e\n\u041d\u0435\u043f\u043b\u043e\u0445\u043e, \u043d\u043e \u043d\u0435 \u0432\u0441\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c\/\u043d\u0435 \u0432\u0441\u0435 \u043f\u043e\u043d\u044f\u0442\u043d\u043e\n\u041d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f\n","showAllValues":true,"emptyValueText":""},"description":"","html_block":"","html_block_position":"","show_in_table":false,"hide_filled":false,"hide":"2"};
+						if (field.type === 'checkbox') {
+							field.id += '--' + Math.floor(Math.random() * 10000);
+						}
+						field.label = "\u041f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f \u043b\u0438 \u0443\u0440\u043e\u043a?";
+						field.settings.placeholder = "";
+						var fieldOptions = null
+						var $el = $('#fieldWidget9712812')
+						var $fieldEl = $el.find('.custom-field-input');
+						window.initCustomFormFieldEl( field, $fieldEl, fieldOptions );
+
+						var setValueToInput = function() {
+                            if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                                var value = $fieldEl[$fieldEl.data('widgetClass')]('getValue');
+                                $el.find('.custom-field-value').val(JSON.stringify(value));
+                            }
+						};
+
+						$fieldEl.on( 'change', function() {
+							setValueToInput();
+						}) ;
+												setValueToInput();
+                        if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                            $fieldEl[$fieldEl.data('widgetClass')]('setInputClass', 'f-input');
+                        }
+					} );
+				</script>
+			</div>
+	</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#aeddf7a024 .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/field63342"
+	data-item-name="field63342"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-userField "
+	id="ab844e716f"
+>
+	<div id="fieldStandard2947719" data-hide-filled="0"
+	>
+	
+	<div class="field-content" >
+		
+					<div id="fieldWidget633787" class="f-input-wrapper">
+								
+				<div class="custom-field-input"></div>
+
+				<input name="formParams[userCustomFields][1859161]" class="custom-field-value" type="hidden" >
+
+				<script>
+					$( function() {
+						var field = {"id":1859161,"label":"lesson_feedback","type":"text","required":false,"settings":{"placeholder":"","rows":"3"},"description":"","html_block":"","html_block_position":"","show_in_table":false,"hide_filled":false,"hide":"2"};
+						if (field.type === 'checkbox') {
+							field.id += '--' + Math.floor(Math.random() * 10000);
+						}
+						field.label = "\u041e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u0441\u0432\u044f\u0437\u044c \u043f\u043e \u0443\u0440\u043e\u043a\u0443 (\u043d\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e)";
+						field.settings.placeholder = "";
+						var fieldOptions = null
+						var $el = $('#fieldWidget633787')
+						var $fieldEl = $el.find('.custom-field-input');
+						window.initCustomFormFieldEl( field, $fieldEl, fieldOptions );
+
+						var setValueToInput = function() {
+                            if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                                var value = $fieldEl[$fieldEl.data('widgetClass')]('getValue');
+                                $el.find('.custom-field-value').val(JSON.stringify(value));
+                            }
+						};
+
+						$fieldEl.on( 'change', function() {
+							setValueToInput();
+						}) ;
+												setValueToInput();
+                        if ($fieldEl[$fieldEl.data('widgetClass')]) {
+                            $fieldEl[$fieldEl.data('widgetClass')]('setInputClass', 'f-input');
+                        }
+					} );
+				</script>
+			</div>
+	</div>
+</div>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#ab844e716f .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+			<div
+	data-param="form/items/parts/submitButton"
+	data-item-name="submitButton"
+	data-title="Элемент"
+	data-animation-mode="no"
+	style="margin-bottom: 25px; border-radius: ; "
+	data-setting-editable="true"
+	class="builder-item part-button  text-center"
+	id="a0639e08bb"
+>
+	
+
+<button type="submit"
+		id="button3914232" data-btn-locked disabled="disabled"		class="btn f-btn  button-md btn-success"
+		style="color: #ffffff; background-color: #4bd58f; border-radius: 30px !important; ">
+
+			Отправить	</button>
+
+<script>
+$( function() {
+	var disableButton = function (e) {
+		if (window['prsbutton3914232']) {
+			e.preventDefault();
+			return false;
+		} else {
+			$('#button3914232').addClass('disabled');
+			window['prsbutton3914232'] = true;
+			setTimeout(function(){window['prsbutton3914232'] = false;$('#button3914232').removeClass('disabled');}, 6000);
+		}
+		return true;
+	};
+	$( '#button3914232' ).click( function(e) {
+		//disableButton(e);
+			} );
+});
+</script>
+	<div class="add-redesign-subblock" data-id="2166747646">
+		<span class="fa fa-plus"></span>
+	</div>
+</div>
+<style>
+		.add-redesign-subblock,
+	div#a0639e08bb .add-redesign-subblock
+	{
+		display: none;
+	}
+</style>
+	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder255255 input[type="radio"]').length == 1 && $('#builder255255 input[type="radio"]').prop('checked') ) {
+			$('#builder255255 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link"
+         data-icon-class="fa fa-wpforms"
+         data-param="form/handler"
+         data-title="Что делать после заполнения"
+         data-setting-editable="true"
+    ></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm8724711').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm8724711 {
+		background-color:#ffffff;padding-left: 40px;
+padding-right: 40px;
+padding-top: 30px;
+padding-bottom: 30px;border: 0px solid #999999;border-radius: 30px;		}
+	</style>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-4703');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747646', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747646-user-255748303', handler);
+		}
+			});
+</script>
+			<div data-updated="1752148346" id="lite-block-live-wrapper-1752576558-4752" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="2166747647">
+
+<style>
+	#ltBlock2166747647 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock2166747647" data-block-id="2166747647"
+               class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block"
+     data-code="ltBlock2166747647"
+          >
+	<div class="lt-block-wrapper">
+	
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+			
+																
+
+
+
+<div class="other-answers answers-list">
+
+		</div>
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 0;
+    window.lessonId = 343287840;
+    window.answersPerPage = 10;
+</script>
+		</div>
+	</div>
+</div>
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1752576558-4752');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747647', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-2166747647-user-255748303', handler);
+		}
+			});
+</script>
+		</div>
+
+<style>
+
+	.content-row > div {
+		padding: 0;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>
+			</div>
+
+</div>
+	</div>
+</div>
+
+<div class="notice-widget" id="noticeWidget"></div>
+<script>
+	$( function() {
+		$('#noticeWidget').noticeWidget()
+
+			} );
+</script>	</div>
+
+	<script src="/public/js/gccounter-new.js?1"></script>
+
+<script async src="https://university.zerocoder.ru/chtm/s/metric/clarity.js"></script>
+<!-- External plugins for "pl/teach/control/lesson/view" -->
+<script async src="https://university.zerocoder.ru/chtm/app/gc-rights/frontend/starter.js"></script>
+<!-- External plugins end -->
+<!-- 2 Календарь -->
+<link rel="stylesheet" href="/pl/cms/layout/css?id=38459&hash=3cd2bcf7e566c0607fd95b15acda5077&bundle=1">
+<script src="/pl/cms/layout/js?id=38459&hash=cf57a28b8b0f7f5d633c216de2b65e61&bundle=1"></script>
+
+
+<!-- [JS] Общие коды в аккаунт -->
+<script src="/pl/cms/layout/js?id=38450&hash=5bcb5335284a602befdcbf639d8566b3&bundle=1"></script>
+
+
+<script type="text/javascript">
+  var gl_id_wz = '87addefa20db964194d4837bed4f4dd4';
+  if ((window.userInfo.isAdmin || window.userInfo.isManager || window.userInfo.isTeacher) && window.userInfo.isInAccount)
+    var script_wz = document.createElement('script'); script_wz.src = 'https://getloo.ru/pixel/wz24/' + gl_id_wz; script_wz.defer = true; $(document).ready(function () { document.body.appendChild(script_wz); });
+</script>
+
+<!-- Кнопки мессенджеров -->
+
+<script type="text/javascript">
+$( document ).on("ajaxSuccess", function( event, xhr, settings ) {
+  if (settings.url.indexOf("/pl/user/user/model?id=") > -1) {
+    let user_id = xhr.responseJSON.model.id;
+    let phone = xhr.responseJSON.model.phone;
+    phone = phone.replace("+","");
+    window.isMobile = /Mobile|webOS|BlackBerry|IEMobile|MeeGo|mini|Fennec|Windows Phone|Android|iP(ad|od|hone)/i.test(navigator.userAgent);
+    let tg_username;
+    $.get('/pl/user/user/get-user-additional-form-data?id='+user_id, '', function (fdata, textStatus, XMLHttpRequest){
+        if (textStatus == "error") {
+               return;
+        } else {
+            let str = fdata;
+            const matchX = str.match(/let formElements(.*) = (.*);/);
+            const matchY = str.match(/let values(.*) = (.*);/); 
+            if(matchX && matchY) {
+              let dop_poles = matchX[2];
+              let dop_polesJSON = JSON.parse(dop_poles);
+              let dop_pole_values = matchY[2];
+              let dop_pole_valuesJSON = JSON.parse(dop_pole_values);
+              for (var key in dop_polesJSON.fields) {
+                let id = dop_polesJSON.fields[key].id;
+                dop_polesJSON.fields[key].value = dop_pole_valuesJSON[id];
+              }
+    
+              $.each(dop_polesJSON['fields'], (i,v)=>{
+                if(
+	           (v['label'] == "telegram" && typeof v['value'] != "undefined")
+                   ||
+	           (v['label'] == "telegram" && typeof v['value'] != "undefined")
+                ) {
+                    let re = new RegExp('(?:(?:https?:\\\\\\/\\\\\\/)?t\\.me\\\\\\/)?@?([a-z0-9_]{1,31})', 'im');
+                    if(re.test(v['value'])) {
+                      let m;
+                      if ((m = re.exec(v['value'])) !== null) {
+                        m.forEach((match, i) => {
+                          tg_username = match;
+                        });
+                      }
+                    } 
+                }
+              });
+            }
+
+            setTimeout(()=>{
+              if(phone[0] == 3 && phone.length == 10) phone = "39"+phone;
+              if(phone[0] == 9 && phone.length == 10) phone = "7"+phone;
+              if(phone[0] == 8 && phone.length == 11) phone = "7"+phone.slice(1);
+              if(phone[0] == 7 && phone[1] == 0 && phone.length == 11) phone = "972"+phone.slice(2);
+              if(!$('#TgWaVb-buttons').length) $(".user-phone").after(`
+         <style>
+           #TgWaVb-buttons a {
+             text-decoration: none;
+             outline: none;
+           }
+           #TgWaVb-buttons button {
+             outline: none;
+             height: 22px;
+             width: 22px;
+             border: none;
+             border-radius: 30px;
+             margin: 0 0 3px;
+           }
+           #TgWaVb-buttons .telegram_button {
+              background-color: #2AABEE;
+              padding: 0;
+           }
+           #TgWaVb-buttons .whatsapp_button {
+              background-color: #25D366;
+              padding: 0 4px;
+           }
+           #TgWaVb-buttons .viber_button {
+              background-color: #59267c;
+              padding: 0 4px;
+           }
+           #TgWaVb-buttons .whatsapp_button img,
+           #TgWaVb-buttons .viber_button img {
+              filter: invert(1);
+              margin-top: -1px;
+           }
+         </style>
+         <div id="TgWaVb-buttons">
+          ${typeof tg_username != "undefined" ? `
+            <a href="${'https://t.me/' + tg_username}" target="_blank">
+              <button class="telegram_button btn btn-sm btn-default">
+                <img src="/fileservice/file/download/a/447724/sc/201/h/8b362f5f01b864dbbc30a8f168b57e78.svg" alt="tg">
+              </button>
+            </a>
+          `: (typeof phone != "undefined" ? `
+            <a href="${'https://t.me/' + "+" + phone}" target="_blank">
+              <button class="telegram_button btn btn-sm btn-default">
+                <img src="/fileservice/file/download/a/447724/sc/201/h/8b362f5f01b864dbbc30a8f168b57e78.svg" alt="tg">
+              </button>
+            </a>
+          `: "")}
+          ${typeof phone != "undefined" ? `
+          <a href="${'https://wa.me/' + "+" +  phone}" target="_blank">
+            <button class="whatsapp_button btn btn-sm btn-default">
+              <img src="/fileservice/file/download/a/447724/sc/390/h/fa511dbc5ec97256af67ac7c27f4dbf4.svg" alt="wa">
+            </button>
+          </a>
+          <a href="${(window.isMobile ? 'viber://add?number=' + phone : 'viber://chat?number=' + "+" + phone)}" target="_blank">
+            <button class="viber_button btn btn-sm btn-default">
+              <img src="/fileservice/file/download/a/447724/sc/319/h/fcaa628231d411b21e420ebbd8ec8fe4.svg" alt="vb">
+            </button>
+          </a>
+          `: ""}
+            `);
+          });
+          
+        }
+      });
+      
+  }
+});
+</script>
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+  (function (m, e, t, r, i, k, a) {
+    m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+    m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+  })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  ym(72085663, "init", {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true
+  });
+</script>
+<noscript>
+  <div><img src="https://mc.yandex.ru/watch/72085663" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  window.addEventListener('message', function(event) {
+    var data = event.data;
+    if (data && data.key === 'YAUTM') {
+      // Делаем что-то с полученным значением
+      let encodedCookieValue = data.value;
+      document.cookie = `YA_ZEROCODER_UTM=${encodedCookieValue}; path=/; SameSite=None; Secure`;
+    }
+  });
+
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  function getGet(name) {
+    var s = window.location.search;
+    s = s.match(new RegExp(name + '=([^&=]+)'));
+
+    var ret = s ? decodeURI(s[1]).replace(/ /g, '_') : false;
+
+    if (!ret && name.indexOf('utm_') === 0) {
+      var cookie_name = 'TILDAUTM';
+      if (window.location.ancestorOrigins && window.location.ancestorOrigins.length > 0) {
+        if (window.location.ancestorOrigins[0] == 'https://ya.zerocoder.ru') {
+          cookie_name = 'YA_ZEROCODER_UTM';
+        }
+      }
+      
+      try {
+        var utm = getCookie(cookie_name);
+        utm = decodeURIComponent(utm);
+        utm = utm.split('|||');
+        for (var n = 0; n < utm.length; n++) {
+          var cParameterName = utm[n].split('=');
+          var pName = cParameterName[0],
+              pValue = cParameterName[1];
+          if (pName === name) {
+            ret = pValue;
+          }
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    return ret;
+  }
+
+  //user
+  $('.reg form').append('<input name="formParams[userCustomFields][553697]" type="hidden" class="utm_source">');
+  $('.reg form').append('<input name="formParams[userCustomFields][553698]" type="hidden" class="utm_medium">');
+  $('.reg form').append('<input name="formParams[userCustomFields][553699]" type="hidden" class="utm_campaign">');
+  $('.reg form').append('<input name="formParams[userCustomFields][553700]" type="hidden" class="utm_content">');
+  $('.reg form').append('<input name="formParams[userCustomFields][553701]" type="hidden" class="utm_term">');
+  $('.reg form').append('<input name="formParams[userCustomFields][658420]" type="hidden" class="alias">');
+  $('.reg form').append('<input name="formParams[userCustomFields][1177241]" type="hidden" class="url_param">');
+  $('.reg form').append('<input name="formParams[userCustomFields][10016042]" type="hidden" class="ym_uid">');
+ $('.reg form').append('<input name="formParams[userCustomFields][10944784]" type="hidden" class="transaction_id">');
+
+  //auth
+  $('.auth form').append('<input name="formParams[userCustomFields][664277]" type="hidden" class="utm_source">');
+  $('.auth form').append('<input name="formParams[userCustomFields][664278]" type="hidden" class="utm_medium">');
+  $('.auth form').append('<input name="formParams[userCustomFields][664279]" type="hidden" class="utm_campaign">');
+  $('.auth form').append('<input name="formParams[userCustomFields][664280]" type="hidden" class="utm_content">');
+  $('.auth form').append('<input name="formParams[userCustomFields][664281]" type="hidden" class="utm_term">');
+  
+  //deal
+  $('.sell form').append('<input name="formParams[dealCustomFields][553702]" type="hidden" class="utm_source">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][553703]" type="hidden" class="utm_medium">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][553704]" type="hidden" class="utm_campaign">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][553705]" type="hidden" class="utm_content">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][553706]" type="hidden" class="utm_term">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][1177245]" type="hidden" class="url_param">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][1247242]" type="hidden" class="cl_uid">');
+  $('.sell form').append('<input name="formParams[dealCustomFields][10693897]" type="hidden" class="ym_uid">');
+$('.sell form').append('<input name="formParams[dealCustomFields][10944790]" type="hidden" class="transaction_id">');
+  
+  //ya.zeocoder
+  /*$('iframe form').append('<input name="formParams[userCustomFields][553697]" type="hidden" class="utm_source">');
+  $('iframe form').append('<input name="formParams[userCustomFields][553698]" type="hidden" class="utm_medium">');
+  $('iframe form').append('<input name="formParams[userCustomFields][553700]" type="hidden" class="utm_content">');
+  $('iframe form').append('<input name="formParams[userCustomFields][553701]" type="hidden" class="utm_term">');*/
+
+  $(function () {
+    var searchFields = {
+      'utm_source': 'utm_source',
+      'utm_medium': 'utm_medium',
+      'utm_campaign': 'utm_campaign',
+      'utm_content': 'utm_content',
+      'utm_term': 'utm_term',
+      'transaction_id': 'transaction_id',
+      'param': 'url_param',
+      'cl_uid': 'cl_uid',
+      'ym_uid': 'ym_uid'
+    };
+    for (var field in searchFields) {
+      if (getGet(field)) {
+        $('.' + searchFields[field]).val(getGet(field));
+      }
+    }
+
+    try {
+      var clUid = getCookie('cl_uid');
+      var ymUid = getCookie('_ym_uid');
+var txnId = getCookie('transaction_id');
+
+$('.transaction_id').val(txnId);
+      $('.cl_uid').val(clUid);
+      $('.ym_uid').val(ymUid);
+    } catch (e) {
+      console.error(e);
+    }
+ });
+    if (typeof alias === 'undefined') {
+      var alias;
+    }
+
+    $('.alias').val(alias);
+ 
+</script>
+
+
+<style>
+  .lesson-navigation .text-center>span {
+    display: none;
+  }
+</style>
+
+
+
+
+
+<script src="/pl/cms/layout/js?id=32365&hash=25333a7960633ea2c84a2c5ffce5eae2&bundle=1"></script>
+
+
+
+<script type="text/javascript">
+/*  window.onload = function () {
+    var clientid = yaCounter72085663.getClientID();
+    window.adcm.call({
+      tags: [`ym_id_${clientid}`]
+    })
+  }*/
+
+  window.onload = function () {
+    var clientid = yaCounter72085663.getClientID();
+      if (window.adcm) {
+         window.adcm.call({
+          tags: [`ym_id_${clientid}`]
+        })
+      }
+  }
+</script>
+
+<!-- Getloo.Ru pixel WABA -->
+<script type="text/javascript">
+var gl_id_waba = '7236a55cb55ca64e64964ffac3d07ccd';
+	if((window.userInfo.isAdmin || window.userInfo.isManager || window.userInfo.isTeacher) && window.userInfo.isInAccount)
+var script_waba = document.createElement('script'); script_waba.src = 'https://getloo.ru/pixel/waba/'+gl_id_waba; script_waba.defer = true; $(document).ready(function() { document.body.appendChild(script_waba); });
+</script>
+<!-- /Getloo.Ru pixel WABA -->
+
+<!-- Getloo.Ru pixel WZ -->
+<script type="text/javascript">
+var gl_id_wz = '87addefa20db964194d4837bed4f4dd4';
+if((window.userInfo.isAdmin || window.userInfo.isManager || window.userInfo.isTeacher) && window.userInfo.isInAccount)
+var script_wz = document.createElement('script'); script_wz.src = 'https://getloo.ru/pixel/wz24/'+gl_id_wz; script_wz.defer = true; $(document).ready(function() { document.body.appendChild(script_wz); });
+</script>
+<!-- /Getloo.Ru pixel WZ -->
+
+<script src='https://tag.digitaltarget.ru/adcm.js' async></script>
+
+<!-- статистика уроков -->
+<script type="text/javascript">
+$(() => {
+    if (location.href.indexOf('teach/control/lesson/view') !== -1) {
+        let readyClarityTimerId = setInterval(() => {
+            if (window.rfnl !== undefined && window.lessonId !== undefined) {
+                rfnl('event://custom/802uHsePut?lessonId='+window.lessonId)
+                clearInterval(readyClarityTimerId);
+            }
+        }, 1000);
+    }
+});
+</script>
+<!-- /статистика уроков -->
+
+<!-- Оформляем баннер внизу аккаунта -->
+<link href="https://university.zerocoder.ru/pl/cms/layout/css?id=28249&hash=2eb2dce10645fdb45dccb8af00a0cfa5&bundle=1"
+  rel="stylesheet">
+<script type="text/javascript"
+  src="https://university.zerocoder.ru/pl/cms/layout/js?id=28249&hash=2eb2dce10645fdb45dccb8af00a0cfa5&bundle=1"></script>
+
+
+
+
+<div id="w34970" class="talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w34970').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+
+<div class="notice-widget" id="noticeWidget"></div>
+<script>
+	$( function() {
+		$('#noticeWidget').noticeWidget()
+
+			} );
+</script><script src="/pl/nassets/4ce3845a/select2.min.js?v=1748094544"></script>
+<script src="/pl/nassets/4ce3845a/select2-kv.min.js?v=1748094544"></script>
+<script src="/pl/nassets/4ce3845a/select2_locale_ru.js?v=1748094544"></script>
+<script src="/pl/nassets/8ce7462f/js/replace.js?v=1748094541"></script>
+<script src="https://vh-asset-static.servicecdn.ru/vhstatic/gz/gc.ts.vh-bridge/app/46/vh.min.js"></script>
+<script src="https://vh-asset-static.servicecdn.ru/vhstatic/gz/gc.ts.webbrowser-monitoring/app/7/monitoring.min.js"></script>
+<script src="/pl/nassets/dd6db688/js/cdnfeedback.js?v=1748094542"></script>
+<script src="/pl/nassets/dd6db688/js/videoplayer.js?v=1748094542"></script>
+<script src="/pl/nassets/8ad1d3a9/js/video-js.min.js?v=1748094541"></script>
+<script src="/pl/nassets/8ad1d3a9/js/plugins/videojs-seek-buttons.js?v=1748094541"></script>
+<script src="/pl/nassets/js/superlite-block-a22a9a96cd70489289ae4ec951f61ba3.js?v=1752576315"></script>
+<script src="/pl/nassets/89bfd734/js/blueimp-gallery.min.js?v=1748094541"></script>
+<script src="/pl/nassets/89bfd734/js/jquery.blueimp-gallery.min.js?v=1748094541"></script>
+<script src="/pl/nassets/89bfd734/js/blueimp-gallery-indicator.js?v=1748094541"></script>
+<script src="/pl/nassets/add7304b/dist/fabric.min.js?v=1748094541"></script>
+<script src="/pl/nassets/add7304b/editor/js/editor.js?v=1748094541"></script>
+<script src="/pl/nassets/7cebc87a/js/clappr.min.js?v=1748094541"></script>
+<script src="/pl/nassets/7cebc87a/js/plugins/level-selector.min.js?v=1748094541"></script>
+<script src="/pl/nassets/c746ae82/answers.js?v=1748094543"></script>
+<script src="/pl/nassets/53775c16/yii.validation.js?v=1748094544"></script>
+<script src="/pl/nassets/53775c16/yii.activeForm.js?v=1748094544"></script>
+<script src="/pl/nassets/2b93f6d9/file_widget.js?v=1751272847"></script>
+<script src="/pl/nassets/b8946cf8/js/jquery.Jcrop.min.js?v=1748094541"></script>
+<script src="/pl/nassets/b52047c6/js/jquery.dataTables.min.js?v=1748094541"></script>
+<script src="/pl/nassets/a05051cb/tus.min.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/file-dialog.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/editable-image.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/folder.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/folder-upload.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/tus-uploader.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/folder-favorites.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/folder-covers.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/file-widget-with-dialog.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/folder-pixabay.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/folder.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/dialog.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/grid.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/gridLog.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/statistics.js?v=1748094541"></script>
+<script src="/pl/nassets/24d4d8eb/js/frames/subtitles.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/redactor.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/ru.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/p2br.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/source.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/typograph.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/iconic.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/inlinestyle.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/table.js?v=1748094541"></script>
+<script src="/pl/nassets/c727c900/plugins/fontcolor.js?v=1748094541"></script>
+<script src="/pl/nassets/2c350652/js/questions-editor.js?v=1748254547"></script>
+<script src="/pl/nassets/2c350652/js/questions-editor-button.js?v=1"></script>
+<script src="/pl/nassets/2c350652/js/testing-widget.js?v=2"></script>
+<script src="/pl/nassets/a4dd1848/mission-addfields.js?v=1748094543"></script>
+<script src="/pl/nassets/3a705405/js/localstore.js?v=1748254547"></script>
+<script src="/pl/nassets/js/tags-68fabef0cdc2ec748a11d51a55fb5ee6.js?v=1752576315"></script>
+<script src="/pl/nassets/141ae5a7/widget.js?v=1748094541"></script>
+<script src="/pl/nassets/141ae5a7/checkbox.js?v=1748094541"></script>
+<script src="/pl/nassets/141ae5a7/date.js?v=1748094541"></script>
+<script src="/pl/nassets/141ae5a7/numeric.js?v=1751377158"></script>
+<script src="/pl/nassets/141ae5a7/select.js?v=1752576312"></script>
+<script src="/pl/nassets/141ae5a7/select_object.js?v=2"></script>
+<script src="/pl/nassets/141ae5a7/string.js?v=1748094541"></script>
+<script src="/pl/nassets/141ae5a7/dateshift.js?v=1748094541"></script>
+<script src="/pl/nassets/js/custom-form-10e9faa317a3c187dfc3fe8ccb0f8502.js?v=1752576316"></script>
+<script src="/pl/nassets/e0fc36a8/colpick.js?v=1748094541"></script>
+<script src="/pl/nassets/644c2834/js/light-menu.js?v=1743510672"></script>
+<script src="/pl/nassets/8bd47edf/notice.js?v=1751272847"></script>
+<script src="/pl/nassets/1ca6dddd/build/tasks-block.js?v=1748094541"></script>
+<script src="/pl/nassets/21a513f9/js/comment_rating_widget.js?v=1748094541"></script>
+<script src="/pl/nassets/4b91d67c/audio.min.js?v=1748094541"></script>
+<script src="/pl/nassets/21a513f9/js/conversation_widget.js?v=1751272847"></script>
+<script src="/pl/nassets/21a513f9/js/conversation_controls.js?v=1748094541"></script>
+<script src="/pl/nassets/21a513f9/js/talks_widget.js?v=1748094541"></script>
+<script>jQuery(function ($) {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Поле «Lesson» не должно быть пустым."});yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script><!-- <script async src="https://vhencapi13.gcfiles.net/st/stat.js?v= --><!-- "></script> -->
+</body>
+</html>
